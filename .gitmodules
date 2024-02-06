@@ -1,0 +1,3 @@
+[submodule "DevGPT"]
+	path = DevGPT
+	url = https://github.com/NAIST-SE/DevGPT.git
