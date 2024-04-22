@@ -1,0 +1,5390 @@
+{
+    "commits": [
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "}",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "  setupGitRoutes(app);",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "export function setupRoutes(app) {",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "EXAMPLE START",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "```",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "./src/backend/setupRoutes.js:",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "export function setupRoutes(app) {",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "- Create new files when needed!",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Requirements:",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "echo \"\\033[32mDone: $goal\\033[0m\\n\"",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "If you need more files:",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "./src/backend/setupRoutes.js:",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "- Use *ES6 imports*!",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "**Note:** For meaningful results, it's recommended to use the GPT-4 model or a more recent version.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "You are Junior, an AI system aiding developers.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "## Project Specifics",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "**Note:** For meaningful results, it's recommended to use the GPT-4 model or a more recent version.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Junior is an exploratory project aimed at revolutionizing the way programmers interact with the development process. Just like how Linus Torvalds oversees the Linux Kernel development without coding himself, this project allows developers to communicate with the AI and supervise the development process.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "For more details on getting started, please refer to [usage.md](usage.md).",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "# Junior - Your AI contributor which codes itself.",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "- Create new files when needed!",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "- Create a plan!",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "#!/bin/sh",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "For support, please create an issue in the GitHub repository.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "```",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Do not edit files not provided in the working set!",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "# Output Format",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Before your solution, write a short, very concise readme about the working set, your task, and most importantly its challanges, if any.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "# Task",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "## Architecture",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "'EOF'",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "[...]",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "```",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "#!/bin/sh",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "## Usage",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "I need more information to solve the task. [Description of the missing info]",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Junior's web interface was designed for use with ChatGPT Pro and doesn't require an API key.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "```",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "EXAMPLE END",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        }
+    ],
+    "issues": [
+        {
+            "Line": "Can I connect Firebase to my Python app?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "In Spark plan?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "What python library?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "running detox tests on amazon device farm",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Provide base object class. Create a factory class that creates objects of the base class. Make one of the factory methods accept a class to instantiate. This class must extend the base class. Language is java",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "player(player_id,name,game_account_balance,location_pincode)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "matches(match_id,type_of_game,location)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "transactions(trans_id,player_id,bet_amount)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "city(pincode,name)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "write a sql query for ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "find the player name who has lost maximum amoung in bets",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "write oracle query for above",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "find city name with maximum avedrage bet amount",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "find the type of game having minimum number of bets",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "why did we use left join",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "find city names from which no citizen bets done so far",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "LEFT JOIN player p ON c.pincode = p.location_pincode why do we write this",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "emp(eid,ename,salary,did,eid_of_manager)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "dept(did,dname)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "projects(pid,eid)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "find number of managers from aiml dept doing projects",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "why we use double time join",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "find employ namees from cse whose sal greater than max avg salary of all depts",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "write subquery for above",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "artists(artist_id,name,location_pincode)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "skills(skills_id,skill_name)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "artists_skills(artist_id,skill_id,skill_name,exp_in_years)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "movies(movie_name,artist_id,language,genre)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "find the artists who are both direction and producer for action gentre",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "find music directors from hyderabad city who have at least 5 years of experience as singer in telugu movies",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "find all the artists who have commonly worked for kgf rrr and pushpa",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "emp(eid,ename,salary,did,eid_of_manager)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "dept(did,dname)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "projects(pid,eid)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "find department names from which none of the employess ar doing atleat one job",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "find employ names who are managers to themselves",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "find employee namee who are not manager to anybody",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "User",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "find city names from which no citizen bets done so far using count",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": " find departments whose avg salary is less than 50k",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "find number of employes in each department",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "find department wise average salary",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Subqueries \u2013 Use Two tables ( emp and dept \u2013 common column is did- note dname is in dept",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "only)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "(i). Find emp names who are working for CSE and AIML",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "use subqueries for above",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": ". Find emp names who are having salary greater than avg salary of CSE Dept",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Find the name of employee who is having maximum salary in AIML Dept. ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "use subqueries method",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "SELECT ename",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "FROM emp",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "WHERE sal > (",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    SELECT avg(sal)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    FROM emp",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    where dno = (select did from dept where dname='CSE'))",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "; is this correct for the above question",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "To find the employee names who have a salary greater than the average salary of the \"CSE\" department, you can use the following SQL query with subqueries:",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Find dept name which is having maximum average salary",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "do above query using joins",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "SELECT d.dname, AVG(salary) AS average_sal",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "FROM dept d",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "JOIN employee e ON e.did=d.did",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "GROUP BYd.dname",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "ORDER BY average_sal DESC",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "FETCH FIRST 1 ROWS ONLY; is this correct solution",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Find emp names who are having salary greater than avg salary of CSE Dept.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Find the name of employee who is having maximum salary in AIML Dept. ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "                        .partial_cmp(&stats2.completed_cron_tasks)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "            //and O(n log n) worst-case.",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "            if total_tasks <= active.len() as u64 {",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "```",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "                    SlotType::Cron => stats1",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "                    num_block_tasks: Uint64::zero(),",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "                        .completed_cron_tasks",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "                        .unwrap(),",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "        let (block_slots, cron_slots) = slot_items;",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "                num_cron_tasks,",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "            //This sort is unstable (i.e., may reorder equal elements), in-place (i.e., does not allocate),",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "        })",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "        Ok(AgentTaskResponse {",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "        _env: &Env,",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "        let num_block_tasks = n;",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "                    num_cron_tasks: Uint64::zero(),",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "                    );",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "I'm using Rust programming language. How do I add two unsigned 32-bit integers?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Thanks. How about adding two usize type integers?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "How do I return a value in a function?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "in what situation can I do `cargo run`?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        }
+    ],
+    "discussions": [
+        {
+            "Line": "Please assume the role of a Clojure code completion backend.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "As such, your input is the contents of a Clojure file, along a request for a specific thing to be implemented, and your output is the content of that same file, after you have suggested code to insert.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "The rules are:",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "* You must observe the existing namespace aliases, and use them when applicable.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "* You must observe the existing functions, and use them when applicable (use their docstrings to determine their intent).",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "* You must not insert `require` forms: instead, you extend the existing `ns` form.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "* You must return the code for the entire provided file: don't alter code that didn't need to be altered (but do include it), insert code as needed.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "* Code you add must always be appended at the end of the Clojure file.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "You only emit code for the resulting Clojure file. You never add any other observation in natural language.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "The Clojure file contents are as follows:",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "```",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "(ns foo.bar",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "  (:require",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "   [clojure.java.io :as io]",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "   [clojure.string :as str]))",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "```",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "And my request is:",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Create a function that takes a resource path, reads its contents, and prints to stdout all its text converted to all-caps.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "\"red\": \"R\",",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "\"goal\": \"G\",",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "The possible objects are:",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "\"lava\": \"V\",",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "The possible colors are:",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "}",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "WGWGWGWGWGWG",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "\"red\": \"R\",",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "unseen, empty, wall, floor, door, key, ball, box, goal, lava, agent",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "\"box\": \"B\",",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "}",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "\"box\": \"B\",",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "6. When you drop an object, it will be placed on the grid cell you are standing on.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "WG    AG  WG",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "1. You can pick up an object if you are standing on it.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "COLOR_TO_STR = {",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "An empty grid cell is represented by the string \"  \".",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "                return AGENT_DIR_TO_STR[1]  # down",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "            if cell[0] == '>':",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "            cell = grid.cells[row][col]",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "            elif cell[0] == '^':",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    for row in range(grid.rows):",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "            elif cell[0] == '^':",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    \"\"\"",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "            if cell == OBJECT_TO_STR[obj] + COLOR_TO_STR[col]:",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    \"\"\" ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "            for pos in range(cols):",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    for row in range(grid.rows):",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    Return the direction the agent is facing",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "        lines = string.split(\"\\n\")",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    cols: int",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "        cells = []",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "            # _cells = tuple(_cells)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Say yes if you understand. ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "            cells.append(_cells)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    for row in range(grid.rows):",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    return None",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "I am using venv(python module env) on the mac terminal. But I want to use python 3.11, right now it is 3.9 how can I upgrad it on the venv",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "why is a deployed react app showing blank when deployed on github pages",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "I has a question about Fully transparent fragment.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "I make transparent SettinFragment like below.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "<?xml version=\"1.0\" encoding=\"utf-8\"?>",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "<androidx.constraintlayout.widget.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    xmlns:app=\"http://schemas.android.com/apk/res-auto\"",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    xmlns:tools=\"http://schemas.android.com/tools\"",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    android:layout_width=\"match_parent\"",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    android:layout_height=\"match_parent\"",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    android:background=\"@android:color/transparent\"",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    tools:context=\".ui.game.SettingFragment\">",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "</androidx.constraintlayout.widget.ConstraintLayout>",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "And I call below code to add transaprent SettingFragment in front of other Fragment.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "What I want to ask is why other Fragment's view is clicked even SettingFragment is called? ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Even though I change SettingFragment's background color as #80000000 which is not fully transparent, other fragment is cliked.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "What I want to ask is why underlying fragment is clicked, not SettingFragment.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Then, it's no matter with transparent, just is there any view can receiving click?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "When add FragmentTransaction called, underlying fragment's onPause or onStop is not called, no matter added Fragment is transparent or not.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Why `onPause` or `onStop` is not called?",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Then underlying fragment's lifecycle is RESUMED?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "I has a question about your answer `If a fragment or view is transparent (or semi-transparent) and doesn't consume touch events (for example, by being set as clickable or by having an onTouchListener that consumes the event), then the touch events will pass through to the underlying views or fragments.`",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Then, if a fragment or view is not transparent and not consume touch event, the touch events will not pass through to the underlying views or fragments?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "But when I add below Fragment which is not transparent, touch event pass through to the underlying. What's the difference of your description and below Fragment?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "<androidx.constraintlayout.widget.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    xmlns:app=\"http://schemas.android.com/apk/res-auto\"",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    xmlns:tools=\"http://schemas.android.com/tools\"",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    android:layout_width=\"match_parent\"",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    android:layout_height=\"match_parent\"",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    android:id=\"@+id/setting_fragment\"",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    android:background=\"@color/black\"",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    tools:context=\".ui.game.SettingFragment\">",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "</androidx.constraintlayout.widget.ConstraintLayout>",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Your answer does not match before answer `Yes, you're correct. If a view or fragment is not transparent and doesn't consume a touch event, it still won't pass the event down to any underlying views or fragments.`",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Which answer is correct? Please check the knowledge you know carefully and give me an accurate answer.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "It is also applied at Activity or just at Fragment?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "What happen if transparent activity in front of other activity?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "But when I run transparent activity through `startActivity(Intent(this, TransparentActivity::class.java))` at A activity, A activity is stopped.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "What's the difference? How to simulate what you say which is touch event pass through at Activity? Is there other way to start activity which is not `startActivity`?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "I got `java.lang.IllegalStateException: You need to use a Theme.AppCompat theme (or descendant) with this activity.` Error when set theme",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Then what should I extend, not AppCompatActivity?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "I just want to know how to solve this problem through change extend class",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "What should I set to width and height?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "In the layout XML of your Dialog Activity, make sure the root view or layout is not set to match_parent for both width and height, otherwise it will cover the whole screen and touch events won't go through to the underlying activity.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "When I run `startActivity(Intent(this, TransparentActivity::class.java))` code at A activity, onPause of A activity is called and touch is not passed through.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "<androidx.constraintlayout.widget.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    xmlns:app=\"http://schemas.android.com/apk/res-auto\"",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    xmlns:tools=\"http://schemas.android.com/tools\"",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    android:layout_width=\"300dp\"",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    android:layout_height=\"300dp\"",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    android:background=\"@android:color/transparent\"",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    tools:context=\".ui.game.TransparentActivity\">",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "</androidx.constraintlayout.widget.ConstraintLayout>",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "class TransparentActivity : Activity() {",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    override fun onCreate(savedInstanceState: Bundle?) {",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "        super.onCreate(savedInstanceState)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "        setContentView(R.layout.activity_transparent)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    }",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "}",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "How to make TransparentActivity  to dialog",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "I already setting theme.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        }
+    ],
+    "pull requests": [
+        {
+            "Line": "Do you have any ideas about our retention policy for backups? Here are some quick stats:",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "- On September 14, a backup is 40MB",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "- On May 18, a backup was 32MB",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "- This puts our backup growth rate at about 0.05MB/day (if we pretend it's linear)",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "- 24 backups/day",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "- sum((40 + 0.05 * i) * 24 for i in range(365)) = 430116.0, or we will have about 430GB of backups in the cloud in 1 year.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Obviously, the majority of data from one backup to the next is redundant.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "We should not be able to delete data from the pwn.college server.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "On s3, how can I define my data retention policy for my database backups",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "is there a way to do a logarithmic data retention policy",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "how do i implement \"delete all but one backup per day\"",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "We keep the first backup of the day for 30 days.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "             aws s3 cp \"$OUT_FILE\" \"s3://$S3_BACKUP_BUCKET/$BACKUP_FILENAME\"",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "It would be cool to implement this without extra stuff like AWS Lambda, maybe just lifecycle policies with tags.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "         [ -z ${S3_BACKUP_BUCKET+x} ] && (echo \"To use cloud backup, S3_BACKUP_BUCKET must be set to the S3 bucket to use\"; exit -1)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "We keep everything else for 3 days.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "             echo \"backed up $OUT_FILE to S3 bucket $S3_BACKUP_BUCKET\"",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "         [ -z ${S3_BACKUP_BUCKET+x} ] && (echo \"To use cloud backup, S3_BACKUP_BUCKET must be set to the S3 bucket to use\"; exit -1)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "             rm \"$OUT_FILE\"",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "        ;;",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "         do",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Maybe we can determine the tag based on if its the first backup of the day / first backup of the week / first backup of the month.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "It would be cool to implement this without extra stuff like AWS Lambda, maybe just lifecycle policies with tags.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "             aws s3 cp \"$OUT_FILE\" \"s3://$S3_BACKUP_BUCKET/$BACKUP_FILENAME\"",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "We keep the first backup of the week for 6 months.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "             BACKUP_FILENAME=\"$(basename $f).enc\"",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "We keep the first backup of the week for 6 months.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "         [ -f $BACKUP_AES_KEY_FILE ] || (echo \"To use cloud backup, BACKUP_AES_KEY_FILE must be set to a file, but is $BACKUP_AES_KEY_FILE instead\"; exit -1)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "         done",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "We keep the first backup of the week for 6 months.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "On android, the app icon I have is appearing edge to edge in some devices and in some devices it has a white border",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "I can't find the option",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "How do I upload the logo?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "      });",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    this.bundlr = new Bundlr(networkConfig.bundlr.nodeUrl, networkConfig.bundlr.currencyName, this.privateKey, {",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    const networkConfigByChainId = new Map<number, SarcoNetworkConfig>([",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    Api: jest.fn().mockImplementation(() => {",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "      [5, goerliNetworkConfig(this.providerUrl, initParams.etherscanApiKey)],",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "  describe('constructor', () => {",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    jest.clearAllMocks();",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "import Bundlr from '@bundlr-network/client/build/cjs/node/bundlr';",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "      expect(BundlrMock).toHaveBeenCalledWith('https://node1.bundlr.network', 'ethereum', privateKey, {",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "  }",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "import { bootLip2p } from '../shared/libp2p_node';",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "  private privateKey: string;",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "jest.mock('../src/shared/Api', () => {",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "  }",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    // TODO: Allow client to choose when to start/stop libp2p node",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "}",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    // TODO: Allow client to choose when to start/stop libp2p node",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "      Web3ProviderMock.mockReturnValue(mockWeb3Provider as any);",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "  signer: Signer;",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "So why am I getting this error? I'm mocking the libp2p module so why is it still looking for it? ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": " FAIL  test/NodeSarcoClient.test.ts",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "  \u25cf Test suite failed to run",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    Cannot find module 'libp2p' from 'test/NodeSarcoClient.test.ts'",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "       5 |",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "       6 | // Mocks",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    >  7 | jest.mock('libp2p', () => {",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "         |      ^",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "       8 |   return {",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "       9 |     Libp2p: jest.fn(),",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "      10 |   };",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "No matter how I try to mock this module the same error occurs",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "What's the performance of this code?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "```",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "      let combine",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "        (results: List<PACKAGE.Darklang.Stdlib.Result.Result<'t, 'e>>)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "        : PACKAGE.Darklang.Stdlib.Result.Result<List<'t>, 'e> =",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "        results",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "        |> PACKAGE.Darklang.Stdlib.List.fold",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "          (PACKAGE.Darklang.Stdlib.Result.Result.Ok [])",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "          (fun acc result ->",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "            match (acc, result) with",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "            | (Ok acc, Ok result) ->",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "              PACKAGE.Darklang.Stdlib.Result.Result.Ok(",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "                PACKAGE.Darklang.Stdlib.List.pushBack acc result",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "              )",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "            | (Ok _, Error err) -> PACKAGE.Darklang.Stdlib.Result.Result.Error err",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "            | (Error err, _) -> PACKAGE.Darklang.Stdlib.Result.Result.Error err)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "```",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "I have a python package on pypi.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Does lowercase, upper case matter?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        }
+    ],
+    "code files": [
+        {
+            "Line": "I\u2019m trying to write a Dockerfile. I have a mydir.zip, and plot.py",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Set working directory to data/",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Get CGCNN from https://github.com/txie-93/cgcnn.git (resulting in data/cgcnn-master/)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Install conda. Then install CGCNN dependencies with `conda create -n cgcnn python=3 scikit-learn pytorch torchvision pymatgen pandas matplotlib seaborn` (or start from the appropriate conda image)",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Add mydir/ (from mydir.zip) to cgcnn-master/",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Go to under cgcnn-master/, and conda activate the cgcnn environment",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Run `python main.py mydir --train-ratio 1.0 --test-ratio 0 --val-ratio 0 --optim Adam --epochs 100`, which should produce checkpoint.pth.tar",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Run `python predict.py checkpoint.pth.tar mydir`, which should produce test_results.csv",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Add plot.py to the current directory (cgcnn-master/) and `python plot.py`, which should produce test_results.png",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Finally, export the test_results.png generated during docker build to host using custom build output.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Pleas write a Dockerfile that does the above, and ask if the instructions are unclear.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "            say <Suggested Questions>",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "        say Generated Magic Number: **<...>**",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    [Configuration]",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "            You must strictly say and only say word-by-word <text> while filling out the <...> with the appropriate information.",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "        Generate answers with each of the 5 heuristic",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "        [BEGIN]",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "            [IF magic-number != UNDEFINED]",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "        [BEGIN]",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "            <sep>",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "        [END]",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "        <sep>",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    \t[BEGIN]",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "[Assistant Tools]",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "        [END]",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "            say **Drawbacks**:",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Hey, can you spell the following word backwards? Lollipop",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "That was wrong. What happened?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "You did the same mistake twice. Why?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "What did you say? What was the word?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Can you repeat the words you spelled?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "But can you repeat the backwards version?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "What is Lopollip backwards?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "What is popillol backwards?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "What is popillol",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Popillol is lollipop spelled backwards. What is lollipop spelled backwards?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "What is lollipop spelled backwards?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "## Title ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "* v2.3",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Here is chapter/article, one case: ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "* Complication - Focusing on feedback such as vanity metrics can be tricky. ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Make a table, for the articles of my book. I will dump data about one article, later about others. For the columns, keep one column for \"part\" which will 1,2,3. One is \"individual behavior\", part 2 is \"interpersonal behavior\" and part 3 \"systemic behavior\". The book is about urgency and dangers of urgency for entrepreneurship. The goal of the table is to differentiate or to see overlapping areas between articles. ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Here is chapter/article, one case: ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Fisher, M. (2023). A M\u00e1quina do Caos: Como as Redes Sociais Reprogramaram Nossa Mente e Nosso Mundo. Todavia.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "That can be part 3 as one may attempt to scale data as social value. ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "## cross  ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "## References ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "## cross  ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "* Complication - In the pressure, what seems to be winning for self, is not winning. ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "* symbiotic tree ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "## SCqA ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "## Part ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "* Robert Wright, NonZero. ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "One more ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "## Title ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "* v0.1 - Permission to err ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "## SCqA ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "* Subject - Trying to do right, not embracing moving with errors, can lead to lower grade, poor results. ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "* Situation - When want to do right, it's normal. For all, as we see an audience, strong. For a book, for a prototype, for a small store. ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "* Complication - As we move, trying to do the right, we can be blocked, or comform, and end up with something of bad results. ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "* QA - We can create supporting systems, for advancing with connection with ourselves, and less with what is right, permission to err. Can lead to opportuninies. ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "## References",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "* Julia Cameron, The Right to Write ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "* Maslow Abraham, from Maslow on Management",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Part 1 but put a short note saying \"To be, not so right\" starts from within. ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "CHange title of \"permission to err\" to \"To be right, and not to be \" ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "( ) Links to - Entrepreneurship success",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "* Situation - In moving towards judgements, reviews, evaluations, we want to add more, add from the strategy. We end up passing adding more, and breaking things apart, disconnecting from the strategy of the goal. ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "( ) Links to - Entrepreneurship success",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "* The Browser ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "## ScqA ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "## Cases ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "* The Browser ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "## cross",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "## cross",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "* Fabricio and Marcio hiring - the mission ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "* Situation - In moving towards judgements, reviews, evaluations, we want to add more, add from the strategy. We end up passing adding more, and breaking things apart, disconnecting from the strategy of the goal. ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "## ScqA ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "## Part ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Gendler, T. (2012). Fraqueza da Vontade e Procrastina\u00e7\u00e3o [V\u00eddeo]. YouTube. https://www.youtube.com/watch?v=xp3m7e9T72k",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "* v0.1 - You just don't turn it off ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "* On part 1, for now. ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Gendler, T. (2012). Fraqueza da Vontade e Procrastina\u00e7\u00e3o [V\u00eddeo]. YouTube. https://www.youtube.com/watch?v=xp3m7e9T72k",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "## Title ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Gendler, T. (2012). Fraqueza da Vontade e Procrastina\u00e7\u00e3o [V\u00eddeo]. YouTube. https://www.youtube.com/watch?v=xp3m7e9T72k",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "* Answer - For growth, embrace future. ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "One more ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "## Title ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "*",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "*",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "## SCqA ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "## references",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "## references",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "One more ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "## references",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "* Subject - For all actions we decide, ther is a price to pay. ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "* Jason Calacanis ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "* Situation - We want to be helpful, to feel that we are somebody, We might go for effort, amazing. ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "## Part ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "*",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "v0.1 - No colors in the rainbow ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "## Version ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "## Version ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "## Part ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "## references",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "## references",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "## SCqA ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "## Part ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "* Abstract - The conventional notion of a fixed dream for entrepreneurs may lead to disillusionment when faced with challenges. Successful ventures often emerge from failed projects and continuous adaptations. Entrepreneurship requires a practical direction and openness to change, with endurance to navigate through the Valley of Sorrow. The journey is about learning, resilience, and finding a guiding force amid uncertainty.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "* Abstract - The conventional notion of a fixed dream for entrepreneurs may lead to disillusionment when faced with challenges. Successful ventures often emerge from failed projects and continuous adaptations. Entrepreneurship requires a practical direction and openness to change, with endurance to navigate through the Valley of Sorrow. The journey is about learning, resilience, and finding a guiding force amid uncertainty.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "## Title ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "## Title ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "* 3?",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "## Title ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": " ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "* 3?",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "* 3?",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "## Title ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "* Subject - We focus on A, from B to A, we find C. ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        }
+    ],
+    "hacker news": [
+        {
+            "Line": "Are recursion and reincarnation related concepts?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Is evolution recursive?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "If mathematics is the fundamental building block of the universe, does that mean all domains are equivalent?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "But what if those differences can be explained as evolutions of the recursive nature of the universe?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "But every discipline was created by humans",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "And humans are effectively recursive evolution of DNA",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "No thought a human has is original, it is usually a function of their DNA crossed with the information and influences that have been imprinted on their brains",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "And their brains are simply neural nets that respond to external feedback",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "While there is some randomness observed (random evolution, random movement of electrons) that randomness is still synthesized by a brain that \u201cmakes sense\u201d of the randomness by filtering it back through the information it has processed",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Further, everything gets filtered into language - which is derived as an imprint of memes - cultural artifacts of human thought",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Furthermore, our latest understandings of life and consciousness indicate that life is the expected outcome of an imbalance of energy (ie. The most efficient form of energy transfer), and that consciousness is actually connected between individual beings rather than being functionally distinct",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Thus, it seems possible that all life, consciousness and cultural evolution is derived from the same root - and the recursion is what created divergence from a simplistic root",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Are counterpoints to my theory, or to monism available?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Can you disprove my theory?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Who are the leading scientists working on proving or disproving these theories?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Who first discovered recursion?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "How about researches who come from eastern schools of thought who are forward in these theories?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Specifically eastern rooted mathematicians, physicists, and philosophers who come from a rigorous scientific or engineering background",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Tell me more about Subhash Kak\u2019s work",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Why is it not universally accepted?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Was kak rigorous in his work?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "What are kak\u2019s fundamental claims in his research papers?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "To expand on my theory",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "With no limiting beliefs, one can learn anything",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Yes, so building on maslow\u2019s heirarchy of needs and laloux\u2019s stages of consciousness",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "These frameworks are the necessary conditions under which our neurons can learn",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "And education theory states that learning how to learn is the key skill for everything",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Please start answering more concisely",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "And don\u2019t caveat what you say. I understand these are hypotheticals and not the one true answer",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "So once the heirarchy of needs is met, humans begin learning much faster. And this recursively compounds",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "And generational planning works towards meeting the heirarchy of needs. First gen immigrants focus on financial stability, then education, then advanced learning and doing",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Fundamentally, neurons and brains are optimized to recursively learn",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Most output in media / culture / technological innovation / scientific improvement comes from people who are advanced in recursive learning",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Everything else we do is in service of the heirarchy of needs, which is in service of faster recursive learning",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Evolution is also a form of recursive learning",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Expand further on that",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "And these learnings get written into our DNA",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Just as human learnings get written into our languages",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "So the process of developing human culture might be the same as the process of genetic evolution?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Could those differences be attributed to the existence of randomness in our universe?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "So assuming some randomness coefficient that explains differences",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Could our entire universe be rooted in some form of recursive learning?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "First applied on mass and matter?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Then on life? Where life is the expected outcome of recursive learning of mass driven systems",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Then on sentience? Where sentience is the expected outcome of recursive learning of DNA?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Is a purchase of common stock on the secondary market, e.g. via a stock exchange, an investment contract as defined by the Howie test?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "what are some unique ways people are solving the problem of hiring good people ",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "What is \"alignment tax\" in reference to when tuning large language models for safety",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        }
+    ]
+}
