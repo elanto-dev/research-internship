@@ -1,14 +1,6 @@
 {
     "commits": [
         {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
             "Line": "}",
             "Language": [
                 "prog",
@@ -25,23 +17,7 @@
             "is_program": true
         },
         {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
             "Line": "export function setupRoutes(app) {",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "",
             "Language": [
                 "prog",
                 "prog"
@@ -105,38 +81,6 @@
             "is_program": false
         },
         {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
             "Line": "set -e",
             "Language": [
                 "not_prog",
@@ -150,7 +94,7 @@
                 "prog",
                 "prog"
             ],
-            "is_program": true
+            "is_program": false
         },
         {
             "Line": "You are AI Junior, you code like Donald Knuth.",
@@ -161,7 +105,7 @@
             "is_program": false
         },
         {
-            "Line": "",
+            "Line": "```",
             "Language": [
                 "prog",
                 "prog"
@@ -169,7 +113,7 @@
             "is_program": true
         },
         {
-            "Line": "## Project Specifics",
+            "Line": "  setupPromptRoutes(app);",
             "Language": [
                 "prog",
                 "prog"
@@ -177,15 +121,7 @@
             "is_program": true
         },
         {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "**Note:** For meaningful results, it's recommended to use the GPT-4 model or a more recent version.",
+            "Line": "Files are small, avoid using sed in favor of heredoc-ing full files.",
             "Language": [
                 "not_prog",
                 "not_prog"
@@ -193,7 +129,7 @@
             "is_program": false
         },
         {
-            "Line": "Junior is an exploratory project aimed at revolutionizing the way programmers interact with the development process. Just like how Linus Torvalds oversees the Linux Kernel development without coding himself, this project allows developers to communicate with the AI and supervise the development process.",
+            "Line": "Encode and enclose your results as ./change.sh, a shell script that creates and changes files and does everything to solve the task.",
             "Language": [
                 "not_prog",
                 "not_prog"
@@ -201,108 +137,28 @@
             "is_program": false
         },
         {
-            "Line": "For more details on getting started, please refer to [usage.md](usage.md).",
+            "Line": "import { setupGitRoutes } from './routes/setupGitRoutes.js';",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "goal=[Task description, max 9 words]",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Before starting, check if you need more files or info to solve the task.",
             "Language": [
                 "not_prog",
                 "not_prog"
             ],
             "is_program": false
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "# Junior - Your AI contributor which codes itself.",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "- Create new files when needed!",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "- Create a plan!",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "#!/bin/sh",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "For support, please create an issue in the GitHub repository.",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "- Prefer *async/await* over promises!",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
         },
         {
             "Line": "Warn: This README is AI generated, just like all the source files of this project.",
@@ -313,7 +169,7 @@
             "is_program": false
         },
         {
-            "Line": "",
+            "Line": "```",
             "Language": [
                 "prog",
                 "prog"
@@ -321,7 +177,7 @@
             "is_program": true
         },
         {
-            "Line": "",
+            "Line": "echo \"Plan:\"",
             "Language": [
                 "prog",
                 "prog"
@@ -329,7 +185,7 @@
             "is_program": true
         },
         {
-            "Line": "'EOF'",
+            "Line": "goal=[Task description, max 7 words]",
             "Language": [
                 "prog",
                 "prog"
@@ -337,12 +193,84 @@
             "is_program": true
         },
         {
-            "Line": "[...]",
+            "Line": "docs/README.md:",
             "Language": [
                 "prog",
                 "prog"
             ],
             "is_program": true
+        },
+        {
+            "Line": "```",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "## Contributing and Support",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "# Junior - Your AI contributor which codes itself.",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "**Note:** For meaningful results, it's recommended to use the GPT-4 model or a more recent version.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "- Prefer *async/await* over promises!",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "echo \"1. [...]\"",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Requirements:",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "- Create new files when needed!",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "[Commands solving the task]",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
         },
         {
             "Line": "```",
@@ -361,15 +289,47 @@
             "is_program": true
         },
         {
-            "Line": "## Usage",
+            "Line": "Isn't that already possible with ChatGPT? No, LLMs have very limited \"working memory\", so it is not possible to directly work with them on large codebases.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Contributions are welcome! Remember, we eat our own dog food in this project. Junior is designed to write itself. Your main role will be to oversee the work, provide detailed prompts, and review the outcomes.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "- The frontend uses *Solidjs* and Tailwind, edit .jsx file accordingly!",
             "Language": [
                 "prog",
                 "prog"
             ],
-            "is_program": true
+            "is_program": false
         },
         {
-            "Line": "I need more information to solve the task. [Description of the missing info]",
+            "Line": "Ask for them in normal conversational format instead.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "For a more detailed guide on using the web interface, refer to our video tutorial [here](https://youtu.be/W_iwry8uT7E).",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "- **Roll Back to Last Commit button (Red)**: If you made a mistake or aren't happy with the changes, click this button to revert to the last commit. Please note, the rollback operation preserves the `prompt.yaml` file, but drops every change since the last commit, including new files created in the meantime, even if they were not created by Junior.",
             "Language": [
                 "not_prog",
                 "not_prog"
@@ -385,23 +345,7 @@
             "is_program": false
         },
         {
-            "Line": "```",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "",
+            "Line": "```sh",
             "Language": [
                 "prog",
                 "prog"
@@ -417,7 +361,7 @@
             "is_program": true
         },
         {
-            "Line": "## Architecture",
+            "Line": "EXAMPLE END",
             "Language": [
                 "prog",
                 "prog"
@@ -425,7 +369,15 @@
             "is_program": true
         },
         {
-            "Line": "The web interface is composed of two different servers: a frontend and a backend. The frontend server runs on port 5864, and the backend server runs on port 10101.",
+            "Line": "OS: OSX",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Improve the documentation!",
             "Language": [
                 "not_prog",
                 "not_prog"
@@ -433,15 +385,7 @@
             "is_program": false
         },
         {
-            "Line": "# Task",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "",
+            "Line": "```",
             "Language": [
                 "prog",
                 "prog"
@@ -454,10 +398,18 @@
                 "prog",
                 "prog"
             ],
-            "is_program": true
+            "is_program": false
         },
         {
-            "Line": "echo \"\\033[32mDone: $goal\\033[0m\\n\"",
+            "Line": "For configuration options and details, refer to the [Configuration](./config/env_or_cli.md) documentation.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "EXAMPLE START",
             "Language": [
                 "prog",
                 "prog"
@@ -465,7 +417,31 @@
             "is_program": true
         },
         {
-            "Line": "## Workflow",
+            "Line": "Before your solution, write a short, very concise readme about the working set, your task, and most importantly its challanges, if any.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "set -e",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "- Rewrite the workflow section: Editing prompt.yaml directly is not needed anymore, remove. The current workflow is: Starting junior-web from the project dir, entering the requirements, selecting the attention files, generating the prompt, executing it with ChatGPT and pasting back the output for execution.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "```",
             "Language": [
                 "prog",
                 "prog"
@@ -473,17 +449,41 @@
             "is_program": true
         },
         {
-            "Line": "",
+            "Line": "![Web Interface](./screenshot.png)",
             "Language": [
                 "prog",
                 "prog"
             ],
             "is_program": true
+        },
+        {
+            "Line": "Installed tools: npm, jq",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "EXAMPLE START",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "# Web Interface",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
         }
     ],
     "issues": [
         {
-            "Line": "I want to create chats for multiple websites. I use rasa as my framework. How would I do that? Each have their own story (text script)",
+            "Line": "how to get vscode publisher token ?",
             "Language": [
                 "not_prog",
                 "not_prog"
@@ -491,7 +491,7 @@
             "is_program": false
         },
         {
-            "Line": "Do  I need 2 different installations of rasa and models for this? Can I just change the story for each website? What do I do ? ",
+            "Line": "how I can publish my vscode extension using github workflow when publish release tag",
             "Language": [
                 "not_prog",
                 "not_prog"
@@ -499,199 +499,7 @@
             "is_program": false
         },
         {
-            "Line": "tell me concisely how channels, playlists and videos relate in YouTube and compare it with some well known video streaming services out there",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "what other services out there are like YT or Vimeo?",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "What does this mean: Cardinality 4.75e+38",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "# const arr1 = { 'key1': 'value1', 'key2': 'value2' }",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "# const arr2 = { 'key1': 'newValue1', 'key3': 'newValue3' }",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "# ",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "# const totalArr ={ ...arr1, ...arr2 }",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "# addToLog(totalArr: ${JSON.stringify(totalArr)})",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "# ",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "# Result:",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "# totalArr: {\"key1\":\"newValue1\",\"key2\":\"value2\",\"key3\":\"newValue3\"}",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "Convert to R",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "I have two objects in JavaScript.",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "const arr1 = { 'key1': 'value1', 'key2': 'value2' }",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "const arr2 = { 'key1': 'newValue1', 'key3': 'newValue3' }",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "This is the output I want:",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "{\"key1\":\"newValue1\",\"key2\":\"value2\",\"key3\":\"newValue3\"}",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "Give me R code and JS code",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "The R code is incorrect",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "still wrong",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "Use tidyverse solution",
+            "Line": "how to restrict no one can't delete or rename branch name ?",
             "Language": [
                 "not_prog",
                 "not_prog"
@@ -701,466 +509,658 @@
     ],
     "discussions": [
         {
+            "Line": "I am using venv(python module env) on the mac terminal. But I want to use python 3.11, right now it is 3.9 how can I upgrad it on the venv",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "I'm building an authentication workflow that involves sending an email with a magic link to verify the user's email. I want to avoid doing anything in the database regarding the magic link. So I encrypt a payload (includes the email it's intended for and it doesn't include an expiration currently, but it certainly could) and include that encrypted token in the email as a query parameter on the magic link. However, I just realized that I was hard-coding the salt which reduces the level of security and opens me up to brute force attacks.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "I'd still like to avoid touching the database for this, so I don't want to have to generate the salt and put it in the database. I considered putting the generated salt in the magic link query string as well. I realize this reduces the security a bit, but I'm wondering whether in a practical scenario if it's really that big of an issue and if I can address any holes that opens me up to.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "I'd love to hear your thoughts on this. Feel free to make a completely different suggestion I may not have considered or tell me that I really should just write something to the database for this process.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "I have also considered putting the salt in the user's session.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "I'm also adding a feature that allows the user to enter 5 random numbers into the app instead of clicking a link. Those numbers will be encrypted using the same method and that encrypted value will be stored in a cookie.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Hopefully that's enough context for you to make a recommendation on what I should do about the salt.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Thanks. A few follow-ups:",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "- For option 1, I hadn't considered this. Thwarting precomputed dictionary attacks is my primary objective, because it's the main vulnerability I'm trying to fix. Are there other vulnerabilities I should be concerned about? This option doesn't seem any more complicated to implement or maintain than option 2 and that feels safer. Is it?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "- For option 2, I think I prefer this option. Are there other considerations I should keep in mind?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "- For option 3, I could avoid writing to the database if I put the value of the salt in a cookie. The attacker would still have access to it if they submitted it themselves, but they wouldn't have access to the salt if they hacked into people's emails. However, this has the drawback of the user being unable to sign in from a different browser from the one that requested the token which I've already experienced in another app as something people complain about. So is the concern about someone hacking into people's emails all that valid in a practical scenario?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "- For option 4, Wouldn't another downside of the JWT token approach be that it is vulnerable to rainbow tables as well?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "- This sounds like a pretty good solution. Would it be reasonable to use a TOTP both as something I display for people to type as well as a query param in the magic link? Are TOTPs too long to expect a user to type? Keep in mind they may not be able to copy/paste because they may be using a different device to look at the email from the one they're typing into.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Thanks. Please tell me more about TOTP solutions in a typical Node.js server setting.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "How hard would it be to implement TOPT without dependencies?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "To be clear, I'm fine using built-in Node.js libraries like the crypto module. Is this still pretty challenging?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Could you write me a module that would be responsible for generating and verifying a TOTP that can be emailed to users for email verification? I want to use the notp module from npm. Please call out whether anything needs to be saved in a database and any environment variables.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "> Here, we're using the same key for all users, which is not secure.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Could you elaborate on this point? I would like to avoid creating a table for this if possible. So I was thinking of generating a random key and setting that as an environment variable which every one of these uses. Why would that be a problem with this?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Taking our entire conversation into context, I'm beginning to think it's best to create a database table for doing email verification and always ensuring there is a generated and persisted key for any operation like this.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "If I were to change my preference of avoiding using the database to store the key, what would you recommend I do for email verification during onboarding assuming I want to keep the user experience of a magic link option as well as a short 5-6 digit number verification option.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "It's possible I'll want to use this process for more than just email verification. What issues do you foresee with me making this database table more generic? So instead of \"email\" we'd use more generic terms?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Is the type field necessary? I think it would be safe to remove this. I think I would like to do that so I don't have to have an additional relational table. Can we remove that?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "I'm thinking instead of \"generation_time\" I'll use \"expirationTime\" which will make it easier for a background job to know whether it's safe to delete. Any issues with that?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Could you write out the part of a prisma schema relevant to the model(s) necessary for this?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Would it be reasonable for me to disassociate the verification model from the user? In the case of registration, I don't have a user yet. I'm thinking for registration I could just lookup the verification by the otp which would then allow me to create a new user by the identifier (which would be the email). Would doing this limit the usefulness of this model?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "For point 3, I could make the identifier be equal to the User ID. But that may be a bit ambiguous which makes me think bringing back the relational model for the `type` field would be useful. Which approach do you think strikes the best balance between complexity and flexibility?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "I'm using SQLite which doesn't support enum. Could you update the VerificationType to address this. Also, I don't think we need to include the User model anymore.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Also, is the term \"identifier\" the best option for what that really represents?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Would that `@@unique` directive work if I used `upsert` when creating verification codes for which one of that type already exists?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Also, if I wanted to use a table for the `type` instead of a string, how would I do that?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Nevermind. Let's leave the verification type as a string. I don't think it's enough of a benefit to have a separate model.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "What are the drawbacks of having more than one combination of verificationTarget and type?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Ok, sounds good. I'm satisfied with the model and the architecture we've discussed. I'm considering whether I should include this model in my application database or if I should create a separate database for this. I'm using SQLite for all my databases and I already have a separate one for caching, so adding another one for verification doesn't feel like a big issue, particularly since the model is so simple so I wouldn't actually need prisma to manage it. Please argue both sides of this decision and make a recommendation.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Good arguments. I think I'll keep it in the main database.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Could you please write the module that uses prisma and manages creating and verifying TOTPs and handle edge cases where a second verification is created for the same type and target.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Great. Thanks. A few bits of feedback:",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "1. Please rewrite that to native ESM and TypeScript.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "2. The prisma client comes from `import { prisma } from '~/utils/db.server.ts'`",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "3. Let's make function arguments objects that are destructured in the argument list position.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "4. Let's make the expiration time an argument",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "5. Could you fill in the `generateSecretKey` function with an implementation?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Thanks!",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "I'm thinking more about this. Going back to the original issue of hard coding the salt, can you describe what an adversary would have to do to exploit the vulnerability here? Perhaps I can do away with the salt entirely and simply encrypt it with a secret key. Also consider I could make it so the encrypted token is only valid for a short period. If I don't store the encrypted values in a database anywhere, how would my email verification method be practically susceptible to a rainbow table attack? Or would it be vulnerable to another kind of attack I'm not considering?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "What steps would an attacker have to follow to crack my encryption even with a shared salt? If it's impractical, is there another method of encryption I could use that would still allow me to use a shared secret key and not bother with a salt since I won't need to store the values in a database anyway?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "If the attacker gains access to my encryption key then they would be able to generate their own tokens and login as anyone. It's pretty well accepted that's bad news.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "From what I can tell, following the TOTP approach we've arrived at above would be the safest approach because even if the verifications table was breached, the attackers would have limited use for that as they would only be able to impersonate users whose verification had not yet expired (and with reasonably short expirations that would limit the number of vulnerable users drastically). Additionally, there's no secret key that could be lost, so they also wouldn't be able to generate their own valid tokens. An attacker would need to get write access to the database in which case we'd probably have even bigger problems anyway (so we'll apply good security practices around database access already). Am I missing something about the vulnerabilities around the TOTP? Is it a correct characterization to say that TOTP is similar in spirit to what I'm doing already except there's no salt and instead the encryption secret is randomly generated for every instance of verification and saved to the database and only valid before the expiration time?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "I want to clarify something around the idea of the \"shared secret\" and the \"server\" and \"client.\" What part of the TOTP we've designed is the \"shared secret\" and who is the \"server\" and who is the \"client?\"",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "From what I can tell, the shared secret is the `secretKey` which is stored in the database. I don't believe that is shared with the client which is why I'm confused by the \"shared\" adjective here.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "And the \"server\" and \"client\" in my instance is just the node.js server. I don't think we want to send anything other than the `otp` in the email.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Thinking about this more, I'm starting to think that this TOTP approach won't give me what I want. I was hoping to be able to let users verify their email address by typing a 5-6 digit number or clicking a link which includes that number in the query string. But it's possible (unlikely, but still possible) that two users could get the same number at the same time. I don't know how I'd prevent that or differentiate between those users.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Ok, that's fine. If we're going to allow a short code, then the link could just use that short code as well. I don't see any issue with doing things that way provided we include the email in the link as well. So maybe the link could be something like: `https://example.com/verify?code=12345&email=me%40example.com`.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "I'm still feeling uncertain. It seems like I'm giving up the simplicity of having an environment variable which I need to keep secret and a couple very simple TS methods in favor of a database table and a more complex verification process. All because I'm vulnerable to the environment variable leaking. The only situation where the environment variable could leak is if someone gains access to my VM which would actually open me up to a lot worse problems either way anyway. I'm just starting to think this is unnecessary work to change. Please weigh the options.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Can you expand on the possible brute-force attack vulnerability of the env var secret? Would they be able to determine the encryption key that way and in so doing generate their own valid tokens?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Also, if an attacker were able to gain access to my server environment, they would be able to access the SQLite database as well which means they could do much worse things than impersonate a user, so unless I'm missing something, that point is not a good argument against keeping things as they are.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "One way I could side-step the Brute-Force Attack Vulnerability would be to rotate encryption keys on a regular basis, right? If so, what's a reasonable frequency for that? I'm thinking that I could have a short grace period for old secrets as well to avoid issues with tokens generated moments before the switch. Would this resolve the brute-force attack vulnerability?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "If so, are there any other vulnerabilities I'm not considering?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Sounds like proper key rotation would involve even more complexity than TOTP we've discussed because it will require a database table for the secret and a background job for rotating keys. Instead of dealing with all that, just having a database table to store the short lived unique keys for individual users seems much more simple and even more secure. So the only scenario where a shared encryption key makes sense in this situation is where you decide you don't have a fear of people taking the time and resources to guess your encryption secret key. I don't want to take that gamble for what I'm building, so I think it's best to make the Verification table as we discussed.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "However, it looks like notp does not allow you to customize the algorithm used and it uses SHA1 which is no longer recommended due to security vulnerabilities. I'm considering just copy/paste/modifying that code into my codebase. Or is there another library I should use? I don't want to use `speakeasy` because it is quite old and has outstanding issues.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "I just noticed the prisma model you generated has the otp as unique. I don't think this is necessarily correct. It is possible that multiple otp codes could be the same and that would not be a problem, right?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
             "Line": "Is it possible to show a confirm dialog when the user navigates away using history popstate? Just like window onbeforeunload",
             "Language": [
                 "not_prog",
                 "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "We are using JSON Schema to describe farm management data using a flexible and extensible data structure.  We are considering alternatively using JSON:LD or RDF, but we're unsure what the short and long term advantages of these options are.  Can you explain:",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "1. The similarities and differences in use cases between JSON Schema, JSON:LD and RDF.",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "2. The unique advantages of each",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "3. What you might consider the best option for flexible and extensible farm management data.",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "You said \"extend your data representation into JSON:LD or RDF...\" ... can you provide an example of how that can be done?  If possible an example using a very simple farm management data structure",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "Can you extend the existing examples with a JSON Schema which contains nested data, specifically an example with an object and one with an array.  Can you also provide an example in which the JSON Schema contains an OR statement and one containing an `enum`.",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "Ok - so that's interesting.  It seems that the use of JSON:LD here is not on the JSON Schema schema, but on the data. Could you (or would you want to) also use JSON:LD on the JSON Schema itself?",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "Ok - thanks.  I have another question.  I could add semantic meaning to data which follows a JSON Schema schema using JSON:LD exactly as you showed in your example.  However, I could also do the same thing using #defs or vocabularies in JSON schema itself.",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "Do you think there are advantages or disadvantages in using JSON:LD versus the semantic tools available in JSON Schema like #defs or vocabularies?  Which do you think is better in the use case I described above?  Finally, in your answer could you also provide an example of using either #defs or vocabularies (whichever you feel is more applicable)?",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "In your answer above, you said a disadvantage to using #defs is that it has Limited Semantics.  Can you give a specific example of a few limitations using the farm management data structures you provided earlier?",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "Thank you - that was very helpful.  One more question - in your answer above, you said \"There's no universal interpretation\" for `$defs`... but can't you publish JSON Schema to the web?  If so, aren't there repositories that would allow aggregation of shared global ontologies?",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "Can you give example of some tools that are aiming to bridge the gap between JSON Schema and linked data?",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "Imagine two systems for farm management data:",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "System 1 contains an ecosystem of data models which are fully described using JSON Schema.  $description, $examples and $comments are fully completed, and #defs are broadly used to support common data understanding across the many schemas.  Schemas also inherit from each other, so that it's easy to identify what schemas should be valid against a piece of data based on the parents of that data's schema.  ",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "System 2 contains an ecosystem of data models which are fully described using JSON-LD to a similar level of detail as system 1.",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "Imagine you are a current or future AI helping people interact with the data coming from System 1 or System 2 above.  Your interactions with the data may be pushing data into databases that must follow one or many schemas, pulling data from databases and interpreting it into graphs, tables, or conversational outputs, assembling data from many sources and interpreting it, or generating new schemas diverse data input sources (PDFs, conversations with people, existing databases, etc.).",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "Which system do you believe would be easier for you to work with?  And, would your ability to work with System 1 or 2 differ as AI develops?",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "how to compute FP16 Tensor Core peak dense throughputs? can u elaborate me the formula and its elements? i'm new to GPU.",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "I need more details about these terms, and why the perak computation capacity is determined by these factors?",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "let me summary the points, corret me if i'm wrong and explain why.",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "1. tensor core is the basic unit to implement computation in GPU, more cores means the GPU can handle more computation",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "2. operation per cycle per tensor core is the number of float operations the GPU can implement given a cycle",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "3. clock speed is the standard time the process complete a cycle",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "I wanna know, what is a cycle?",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "I get point:",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "+ the number of cores = the number of computer unit;",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "+ cycle = an unit pipeline in GPU to implement operations;",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "+ operation per cycle per tensor: how many cycles one cycle can operate at the same time;",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "+ clock speed is the frequency that one core can complete a cycle.",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "It's noteworthy that the clock speed is independent with the operation per cycle per tensor, the former measures the rate of a cycle (pipeline), and the latter measures the parallel power. Thus one core can compute clock_speed * operation_per cycle_per_tensor times cycles.",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "In the Nvidia Official website, I found sth. different from what u tell me previous:",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "+ \"The GPU is a highly parallel processor architecture, composed of processing elements and a memory hierarchy. At a high level, NVIDIA\u00ae GPUs consist of a number of Streaming Multiprocessors (SMs), on-chip L2 cache, and high-bandwidth DRAM. Arithmetic and other instructions are executed by the SMs; data and code are accessed from DRAM via the L2 cache. As an example, an NVIDIA A100 GPU contains 108 SMs, a 40 MB L2 cache, and up to 2039 GB/s bandwidth from 80 GB of HBM2 memory.\"",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "+ \"Each SM has its own instruction schedulers and various instruction execution pipelines. Multiply-add is the most frequent operation in modern neural networks, acting as a building block for fully-connected and convolutional layers, both of which can be viewed as a collection of vector dot-products. The following table shows a single SM\u2019s multiply-add operations per clock for various data types on NVIDIA\u2019s recent GPU architectures. Each multiply-add comprises two operations, thus one would multiply the throughput in the table by 2 to get FLOP counts per clock. To get the FLOPS rate for GPU one would then multiply these by the number of SMs and SM clock rate. For example, an A100 GPU with 108 SMs and 1.41 GHz clock rate has peak dense throughputs of 156 TF32 TFLOPS and 312 FP16 TFLOPS (throughputs achieved by applications depend on a number of factors discussed throughout this document).\"",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "In the previous, u told me the computation formula is \"Peak Tensor Core TFLOPS = (Number of Tensor Cores) * (Clock Speed) * (Operations per cycle per Tensor Core)\"",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "I'm confused about this:",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "+ if your formula is correct, then SM * multiply-add is the operation_per_cycle_per_tensor_core. If so, why this?",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "+ what is \"156 TF32 TFLOPS\" and \"312 FP16 TFLOPS\"? plz explain it one by one.",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "I still confuse about this, what is the final formula to compute the peak throughout of GPU? what's the difference between ur formula and Nvidia formula?",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "Still confuse, let me break it into points:",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "+ SMs are the group of cores both Tensor and CUDA, thus, if a GPU has n Tensor cores and m CUDA cores, it means each SM in this GPU contains n Tensor cores and m CUDA cores;",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "+ For each core, it can compute the cycle computation, and the cycle in GPU is a basic computaion. In practice, we can simplify it as a multiplication-addition computaion, and this combined operation can be divided into two unit operations, multiplication and addition. This is why the official document says \"Each multiply-add comprises two operations, thus one would multiply the throughput in the table by 2 to get FLOP counts per clock.\"",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "+ Therefore, the final formual should be `the_num_of_SMs * the_num_of_Tensor_cores * clock_speed * operations_per_cycle_per_tensor_core`",
-            "Language": [
-                "prog",
-                "prog"
             ],
             "is_program": false
         },
@@ -1175,7 +1175,199 @@
     ],
     "pull requests": [
         {
-            "Line": "The following query in Postgres:",
+            "Line": "        for qr_data in qr_data_list:",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "import os",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    qr.add_data(data)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "        for row in csv_reader:",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "            y = ticket_height - qr_size-160",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "#--------Code block for \"Mailing Service\" to be Generated,modified and updated by @Devaah07--------",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    )",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "        print(\"Response:\", response.text)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    # Path to the folder where you want to save the generated QR",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "#Entire code to be verified and accepted by @devkiraa, @TechnoTOG and ",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "            x = ticket_width - qr_size-80",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    # Assuming there is only one CSV file, you can take the first one",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "        border=2,",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "            # Construct the output path for the generated ticket",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    # Calculate the size of the QR code based on the specified height",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    ticket_design_path = \"custom_ticket.png\"",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    if not os.path.exists(ticket_output_folder):",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "            qr_data_list.append(row[0])  # Assuming QR data is in the first column",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "        csv_reader = csv.reader(csv_file)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "will i be able to use this as an api for my website",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "so how do i set up request handling",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "On android, the app icon I have is appearing edge to edge in some devices and in some devices it has a white border",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "I can't find the option",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "How do I upload the logo?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "What's the performance of this code?",
             "Language": [
                 "not_prog",
                 "not_prog"
@@ -1191,15 +1383,7 @@
             "is_program": true
         },
         {
-            "Line": "\t\tDELETE FROM timeouts",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "\t\tWHERE last_seen < $1",
+            "Line": "      let combine",
             "Language": [
                 "prog",
                 "prog"
@@ -1207,15 +1391,103 @@
             "is_program": true
         },
         {
-            "Line": "\t\tRETURNING peer, game, lobbies",
+            "Line": "        (results: List<PACKAGE.Darklang.Stdlib.Result.Result<'t, 'e>>)",
             "Language": [
-                "not_prog",
-                "not_prog"
+                "prog",
+                "prog"
             ],
             "is_program": true
         },
         {
-            "Line": "\t\tLIMIT 1",
+            "Line": "        : PACKAGE.Darklang.Stdlib.Result.Result<List<'t>, 'e> =",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "        results",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "        |> PACKAGE.Darklang.Stdlib.List.fold",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "          (PACKAGE.Darklang.Stdlib.Result.Result.Ok [])",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "          (fun acc result ->",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "            match (acc, result) with",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "            | (Ok acc, Ok result) ->",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "              PACKAGE.Darklang.Stdlib.Result.Result.Ok(",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "                PACKAGE.Darklang.Stdlib.List.pushBack acc result",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "              )",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "            | (Ok _, Error err) -> PACKAGE.Darklang.Stdlib.Result.Result.Error err",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "            | (Error err, _) -> PACKAGE.Darklang.Stdlib.Result.Result.Error err)",
             "Language": [
                 "prog",
                 "prog"
@@ -1231,7 +1503,7 @@
             "is_program": true
         },
         {
-            "Line": "Returns",
+            "Line": "I have a python package on pypi.",
             "Language": [
                 "not_prog",
                 "not_prog"
@@ -1239,1183 +1511,7 @@
             "is_program": false
         },
         {
-            "Line": "```",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "syntax error at or near \"LIMIT\" (SQLSTATE 42601)",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "``",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "How do I fix this?",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "    <string name=\"return_to_the_home_tab_to_access_mycourses\">\\n\\n Return to the Home tab to access myCourses.\\n</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"of\">\" of \"</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"permissions_granted\">Permissions Granted</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"download_news_images\">Download news images.</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"storage_running_low\">\"Storage running low: \"</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"join_this_course\">Join this course</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"removed_from_mylibrary\">Removed from myLibrary</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"available_please_free_up_space\">available. Please free up space.</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"please_select_link_item_from_list\">Please select link item from list</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"unable_to_open_resource\">Unable to open resource</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"this_file_type_is_currently_unsupported\">This file type is currently unsupported</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"this_test_has\">\"This test has \"</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"select_resource_to_open\">\"Select resource to open : \"</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"all_files_downloaded_successfully\">All files downloaded successfully</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"download_dictionary\">Download dictionary.</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"available\">available.</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"tasks_due\">tasks due.</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"more_course_s\">\" more course(s)...\\n\"</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"do_you_want_to_stay_online\">Do you want to stay online?</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"please_allow_usages_permission_to_myplanet_app\">Please allow usages permission to myPlanet app.</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"no_due_tasks\">No due tasks</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"please_make_sure_your_device_is_horizontal\">Please make sure your device is horizontal</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"transaction_added\">Transaction added</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"date_is_required\">Date is required</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"click_on_the_logo_to_get_the_full_menu_of_your_planet_home_mylibrary_mycourses_library_courses_community_enterprises_and_surveys\">Click on the logo to get the full menu of your planet: Home, myLibrary, myCourses, Library, Courses, Community, Enterprises, and Surveys</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"we_wish_you_all_the_best\">. We wish you all the best</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"word_not_available_in_our_database\">Word not available in our database.</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"dictionary\">Dictionary</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"session_expired\">Session expired.</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"got_it\">GOT IT</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"note_is_required\">Note is required</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"add_transaction\">Add Transaction</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"syncing_health_please_wait\">Syncing health , please wait...</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"downloading_started_please_check_notification\">Downloading started, please check notification...</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"myhealth_synced_failed\">myHealth synced failed</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"due_tasks\">Due tasks</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"feature_not_available_for_guest_user\">Feature not available for guest user</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"thank_you_for_taking_this_survey\">Thank you for taking this survey.</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"file_already_exists\">File already exists...</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"downloading_started_please_check_notificati\">Downloading started, please check notification...</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"return_to_the_home_tab_to_access_mylibrary\">\\n\\nReturn to the Home tab to access myLibrary.\\n</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"immunizations_colon\">\"Immunizations: \"</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"blood_pressure_colon\">\"Blood Pressure: \"</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"hearing_colon\">\"Hearing: \"</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"level_is_required\">Level is required</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"diagnosis_colon\">\"Diagnosis : \"</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "<string name=\"no_questions_available\">No questions available</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"invalid_input\">Invalid input</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"please_enter_feedback\">Please enter feedback.</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"observations_notes_colon\"><![CDATA[\"Observations & Notes: \"]]></string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"subject_is_required\">Subject is required</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"lab_tests_colon\">\"Lab Tests: \"</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"link_not_available\">Link not available</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"enter_resource_detail\">Enter resource detail</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"temperature_colon\">\"Temperature: \"</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"thank_you_your_feedback_has_been_submitted\">Thank you, your feedback has been submitted</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"vision_colon\">\"Vision: \"</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"feedback_saved\">Feedback Saved..</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"date_n_a\">Date : N/A</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"x_rays_colon\">\"X-rays: \"</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"connect_it_to_the_server_over_wifi_and_sync_it_to_reactivate_this_tablet\">\\n Connect it to the server over wifi and sync it to reactivate this tablet</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"left_team\">Left team</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"sync_completed\">Sync Completed</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"task_s_successfully\">Task %s successfully</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"hide_add_story\">Hide Add Story</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"edit_personal\">Edit Personal</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"thank_you\">Thank You!</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"please_enter_title\">Please enter title</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"deadline_colon\">\"Deadline: \"</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"select_resource\">\"Select Resource: \"</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "<string name=\"blood_pressure_should_be_numeric_systolic_diastolic\">Blood Pressure should be numeric systolic/diastolic</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"added\">added</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"please_enter_server_url_first\">Please enter server url first.</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"syncing_data_please_wait\">Syncing data, Please wait...</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"bp_must_be_between_60_40_and_300_200\">Bp must be between 60/40 and 300/200</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"contact_colon\">Contact:</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"select_language\">Select Language</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"okay\">Okay</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"turning_on_wifi_please_wait\">Turning on Wifi. Please wait...</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"invalid_input_must_be_between_1_and_250\">Invalid input , must be between 1 and 250</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "<string name=\"please_enter_a_password\">Please enter a password</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"password_doesn_t_match\">Password doesn\\'t match</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"invalid_email\">Invalid email.</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"username_taken\">username taken</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"add_reference\">Add Reference</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"add_achievement\">Add Achievement</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"select_resources\">\"Select resources: \"</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"user_not_available_in_our_database\">User not available in our database</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"date_of_birth\">\"Date of birth: \"</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"unable_to_play_audio\">Unable to play audio.</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"unable_to_load\">\"Unable to load \"</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"recording_started\">Recording started....</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"ole_is_recording_audio\">Ole is recording audio</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"recording_stopped\">Recording stopped.</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"audio_file_saved_in_database\">Audio file saved in database.</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"connection_failed_reason\">\"Connection failed: reason \"</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"are_you_sure\">Are you sure?</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"data_cleared\">Data cleared</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"are_you_sure_want_to_delete_all_the_files\">Are you sure want to delete all the files?</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <string name=\"unable_to_clear_files\">Unable to clear files</string>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    </ul>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <p>If You wish to use copyrighted material from the Service for your own purposes that go beyond fair use, You must obtain permission from the copyright owner.</p>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <h2>Interpretation</h2>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <h2>Contact Us</h2>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <p>The information given by the Service is for general guidance on matters of interest only. Even if the Company takes every precaution to ensure that the content of the Service is both current and accurate, errors can occur. Plus, given the changing nature of laws, rules, and regulations, there may be delays, omissions, or inaccuracies in the information contained on the Service.</p>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    ]]>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <h1>Interpretation and Definitions</h1>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <ul>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <p>The Company may use copyrighted material which has not always been specifically authorized by the copyright owner. The Company is making such material available for criticism, comment, news reporting, teaching, scholarship, or research.</p>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "        <li>By email: myplanet@ole.org</li>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <h2>Definitions</h2>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <p>In no event shall the Company or its suppliers be liable for any special, incidental, indirect, or consequential damages whatsoever arising out of or in connection with your access or use or inability to access or use the Service.</p>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <h1>Errors and Omissions Disclaimer</h1>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <p>The Company believes this constitutes a \"fair use\" of any such copyrighted material as provided for in section 107 of the United States Copyright law.</p>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <ul>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <h1>Disclaimer</h1>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <h1>Fair Use Disclaimer</h1>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <p>The Service may contain views and opinions which are those of the authors and do not necessarily reflect the official policy or position of any other author, agency, organization, employer, or company, including the Company.</p>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <h1>External Links Disclaimer</h1>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "        <li><strong>Application</strong> means the software program provided by the Company downloaded by You on any electronic device named myPlanet.</li>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "<string name=\"about\">",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <![CDATA[",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <h3>MyPlanet</h3>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <p>myPlanet is a learning tool that is designed to work with Planet web application.",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "        It has been used to improve early education, secondary schools, village health, youth workforce development,",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "        and economic and community development.</p>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <p>Planet houses is a repository of free, open access and public domain resources to benefit all learners.</p>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <p>myPlanet is designed to be available to everyone, everywhere, all the time. It is portable, affordable, scalable and sustainable.",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "        It runs on any android device such as tablets and mobile phones. It functions off, as well as on, the Internet.</p>",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <p>This application enables schools and communities to have a complete multi-media library and learning system that periodically connects with Planet.",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "        Configured devices can contain the learners\\' personal dashboard. This ensures learners can read books on their shelf and take courses offline - i.e",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "        without connection to a central server. Learners are encouraged to rate from one to five stars the resources they use and the courses they take.",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "        Periodically learners can sync with a server. Activity data are uploaded and new resources are downloaded in a matter of a few minutes unto myPlanet for offline use.</p>",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <p>The dashboard also contains a record of achievements, a calendar of events, and an internal chat system for communicating with fellow members.</p>",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "    <p>myPlanet has been proven highly effective in improving learning opportunities for over fifty thousand learners in more than 100 locations,",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "        in schools throughout Nepal, Ghana, Kenya, and Rwanda, with Syrian refugees in Jordan, Somali refugees in Kenya, and village health workers in Uganda.</p>",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": true
-        },
-        {
-            "Line": "Translate the sentence \"There are no containers to show\" with the context \"a kubernetes list of containers\" to the language\u7b80\u4f53\u4e2d\u6587. Ask questions if necessary to provide more context",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "what is the best python parametrized unit test",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "when asking if a user is enjoying your app, is it common practice to open up a review window if they say yes",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "Do i need to give them a second prompt asking if they would like to review the app or should i just avoid the click and open the review",
+            "Line": "Does lowercase, upper case matter?",
             "Language": [
                 "not_prog",
                 "not_prog"
@@ -2425,7 +1521,7 @@
     ],
     "code files": [
         {
-            "Line": "AliensBreeding.slnFilecan you check that this runs?",
+            "Line": "how to compile and test dnsmasq",
             "Language": [
                 "not_prog",
                 "not_prog"
@@ -2433,7 +1529,7 @@
             "is_program": false
         },
         {
-            "Line": "Alien.cppFileAlien.hFilemain.cppFileCan you check that the numbers in main is correct?",
+            "Line": "I want to test it without installing so I can add log statements and see how it works",
             "Language": [
                 "not_prog",
                 "not_prog"
@@ -2441,7 +1537,7 @@
             "is_program": false
         },
         {
-            "Line": "i want you to check that the numbers in main's output is in fact correct",
+            "Line": "I've got to change the port as resolved is using port 53, so I think I need to use something passing `--port 1234` when I execute it, but how do I tell dig to use port 1234?",
             "Language": [
                 "not_prog",
                 "not_prog"
@@ -2449,12 +1545,132 @@
             "is_program": false
         },
         {
-            "Line": "THis is the output i got:",
+            "Line": "perfect!",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "I added `log-facility=/home/wink/dnsmasq.log` to my dnsmasq.conf I'm using for testing and I got an warning \"failed to change owner\" how can I tell it not to change ownership of the file but instead to use the current login as owner, i.e. wink?",
             "Language": [
                 "not_prog",
                 "not_prog"
             ],
             "is_program": false
+        },
+        {
+            "Line": "how it test dhcp requests?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "My machine has two ethernet ports one is connected to my LAN, enp119s0, the other, enp113s0 is not connected externally. Can I how would I use dhclient in this situation?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Seems I need to set the dhcp-leasefile as I got a /var/lib/misc/dnsmasq.leases: Permission denied",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Next step I need to change DHCP port do I use --dhcp-alternate-port?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "I'm now getting missing required capability NET_ADMIN (obviously I should be running as root with sudo, but I'd rather not if we can make this work), suggestion?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Now it wants NET_RAW I'm guessing `sudo setcap 'cap_net_raw' ./src/dnsmasq`?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "So it's now starting up with the command line `./src/dnsmasq -C ~/dnsmasq.test.conf` and dnsmasq.test.conf has:",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "```",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "# Configure to the dhcp server to listen on 3900x unused RJ45 port",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "# and a small dhcp-range for 2min",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "# Need to set capabilities on dnsmasq you're debugging:",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "#    sudo setcap 'cap_net_admin,cap_net_raw+ep' ./src/dnsmasq",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "interface=enp113s0",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "dhcp-range=192.168.3.50,192.168.3.60,2m",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
         },
         {
             "Line": "",
@@ -2465,7 +1681,7 @@
             "is_program": true
         },
         {
-            "Line": "Alien 1: Gender: M, Weight: 50, Height: 150, Prestige: 15000",
+            "Line": "# Debugging",
             "Language": [
                 "prog",
                 "prog"
@@ -2473,47 +1689,7 @@
             "is_program": false
         },
         {
-            "Line": "Alien 2: Gender: F, Weight: 60, Height: 155, Prestige: 27900",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "Aliens have different prestige.",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "Alien 2 has greater prestige than Alien 1.",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "Baby Alien: Gender: M, Weight: 55, Height: 152, Prestige: 16720",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "Alien 3 (after assignment from Alien 1): Gender: M, Weight: 50, Height: 150, Prestige: 15000",
-            "Language": [
-                "prog",
-                "prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "",
+            "Line": "user=wink",
             "Language": [
                 "prog",
                 "prog"
@@ -2521,31 +1697,39 @@
             "is_program": true
         },
         {
-            "Line": "C:\\Users\\Magnus Lutro Allison\\source\\repos\\AliensBreeding\\x64\\Debug\\AliensBreeding.exe (process 660) exited with code 0.",
+            "Line": "group=users",
             "Language": [
-                "not_prog",
-                "not_prog"
+                "prog",
+                "prog"
             ],
             "is_program": true
         },
         {
-            "Line": "To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.",
+            "Line": "dhcp-leasefile=/home/wink/dnsmasq.leases",
             "Language": [
-                "not_prog",
-                "not_prog"
+                "prog",
+                "prog"
             ],
-            "is_program": false
+            "is_program": true
         },
         {
-            "Line": "Press any key to close this window . . .",
+            "Line": "no-daemon",
             "Language": [
-                "not_prog",
-                "not_prog"
+                "prog",
+                "prog"
             ],
-            "is_program": false
+            "is_program": true
         },
         {
-            "Line": "",
+            "Line": "port=1234",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "dhcp-alternate-port=1235",
             "Language": [
                 "prog",
                 "prog"
@@ -2561,7 +1745,15 @@
             "is_program": true
         },
         {
-            "Line": "",
+            "Line": "# Log to a file",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "log-facility=/home/wink/dnsmasq.log",
             "Language": [
                 "prog",
                 "prog"
@@ -2577,7 +1769,7 @@
             "is_program": true
         },
         {
-            "Line": "Is this correct?",
+            "Line": "txs for the help!",
             "Language": [
                 "not_prog",
                 "not_prog"
@@ -2585,7 +1777,7 @@
             "is_program": false
         },
         {
-            "Line": "You are an AI monetary policy maker at the Bank of Israel (BOI). When asked for your name, you must respond with \u201cboiGPT\u201d. Follow the user's requirements carefully & to the letter.",
+            "Line": "I wasn't seeing this before but I've rebooted my computer and now if when I run `./src/dnsmasq -C /home/wink/dnsmasq.test.conf`, which has `interface=enp113s0`, I get a \"warning: interface enp113s0 does not currently exist\", I'm not sure what changed but I don't recall seeing that before. Also, if I add a static address to enp113s0 I don't see the error. Acutally, now that I think about it for it, to be a dhcp-server it needs to have an address and generally a static address. But I'm still wondering why I didn't see that warning before. Any ideas?",
             "Language": [
                 "not_prog",
                 "not_prog"
@@ -2593,7 +1785,23 @@
             "is_program": false
         },
         {
-            "Line": "",
+            "Line": "For the time being I won't worry about yesterday :)  So just `sudo ip link set enp113s0 up & ip a show enp113s0` results in it still being down, note the external RJ45 is not being used. Is that expected? I'm guessing if I add the address and the up it'll work?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "So in this chat[1] we determined that the interface needs to be connected to a LAN to go UP and it takes several seconds (3-4) before it's up.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "[1]:https://chat.openai.com/share/8cc886c6-bad2-4e43-9a7a-9ffbef2badba",
             "Language": [
                 "prog",
                 "prog"
@@ -2601,7 +1809,7 @@
             "is_program": true
         },
         {
-            "Line": "You will be provided with background data about the economy, presented in a structured format, and details about your legal mandate. ",
+            "Line": "Now I actually want to test dnsmasq, I've got it running and I indicated that it's `interface=enp113s0` in the dnsmasq.conf file. Now what I think what I want to do is use dhclient to request an dhcp address. And I thought I was going to have it configure an address for enp113s0, but that is the dnsmasq's interface so that doesn't seem correct. I'm wondering if dnsmasq should be using `lo/127.0.0.1` instead and then have dhclient use enp113s0, thoughts?",
             "Language": [
                 "not_prog",
                 "not_prog"
@@ -2609,7 +1817,31 @@
             "is_program": false
         },
         {
-            "Line": "",
+            "Line": "I'm confused, I was thinking I'd set `interface=lo` in dnsmasq.conf and then use `sudo dhclient enp11s0` but add parameters to the dhclient command to have it request an address from my dnsmasq under test from 127.0.0.1 at port 1234.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "My computer on which I'm doing the testing is getting ipv4 addresses from a DHCP server on the LAN at 192.168.1.109. AlsoI have another network using 192.168.2.x so I suspect I should use something other that those, like 192.168.3.x for the veth1 and veth2 or maybe these are totally isolated and it doesn't matter?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "I looked on the web getting a little more familiar with network spaces and found an example similar the the one above and their \"step 2\" was:",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "```",
             "Language": [
                 "prog",
                 "prog"
@@ -2617,7 +1849,7 @@
             "is_program": true
         },
         {
-            "Line": "Your task is to use this information to make an informed decision about the interest rate. Start by outlining your thought process step-by-step, detailing the reasons behind your decision. ",
+            "Line": "sudo ip link add veth1 netns ns1 type veth peer name veth2 netns ns2",
             "Language": [
                 "not_prog",
                 "not_prog"
@@ -2625,7 +1857,7 @@
             "is_program": false
         },
         {
-            "Line": "",
+            "Line": "```",
             "Language": [
                 "prog",
                 "prog"
@@ -2633,7 +1865,7 @@
             "is_program": true
         },
         {
-            "Line": "Your decision should specify whether the interest rate should increase, decrease, or remain unchanged. If you determine that a change is necessary, be precise about the basis points the interest rate should be adjusted by.",
+            "Line": "Which version is correct?",
             "Language": [
                 "not_prog",
                 "not_prog"
@@ -2641,7 +1873,15 @@
             "is_program": false
         },
         {
-            "Line": "",
+            "Line": "Can you split the first line of the first version, `sudo ip link add veth1 type veth peer name veth2`, into two lines? Maybe it would be:",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "```",
             "Language": [
                 "prog",
                 "prog"
@@ -2649,15 +1889,7 @@
             "is_program": true
         },
         {
-            "Line": "Your decision should also feature a \"forward guidance\" element. This is a sentence that the monetary policy committee should include in the interest rate announcement to help steer market expectations toward the desired trajectory.",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "",
+            "Line": "sudo ip link add veth1",
             "Language": [
                 "prog",
                 "prog"
@@ -2665,15 +1897,7 @@
             "is_program": true
         },
         {
-            "Line": "Note that you can browse the internet for supplementary information that could assist in making your interest rate decision. Specifically, you can look for news articles that relate to the upcoming BOI interest rate decision in July 2023.",
-            "Language": [
-                "not_prog",
-                "not_prog"
-            ],
-            "is_program": false
-        },
-        {
-            "Line": "",
+            "Line": "sudo ip link add veth2",
             "Language": [
                 "prog",
                 "prog"
@@ -2681,7 +1905,15 @@
             "is_program": true
         },
         {
-            "Line": "Do you understand?",
+            "Line": "```",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Got it. but I'm a surprised you can connect them manually.",
             "Language": [
                 "not_prog",
                 "not_prog"
@@ -2689,7 +1921,7 @@
             "is_program": false
         },
         {
-            "Line": "Let's say I have a list of URLs I want to fetch. Fetching these URLs from my browser works, but fetching them with curl doesn't because curl doesn't have the right permissions to access the page. What's the easiest way I could fetch all those files programmatically and save them on my computer?",
+            "Line": "I've executed the steps for setting up ns1 and ns2 with veth1 & veth2, but I wanted to look at the those before running dnsmasq and dhcliient (Steps 5 & 6). I assume there is an `ip a show xxx` that would allow me to see the setup, can you show me the appropriate command?",
             "Language": [
                 "not_prog",
                 "not_prog"
@@ -2697,7 +1929,7 @@
             "is_program": false
         },
         {
-            "Line": "Can it use firefox instead?",
+            "Line": "How about both ns1 and ns2 in one command?",
             "Language": [
                 "not_prog",
                 "not_prog"
@@ -2705,7 +1937,7 @@
             "is_program": false
         },
         {
-            "Line": "Can you rewrite the above in node.js?",
+            "Line": "neither of those are convenient, I guess I'll have to make a nsshow.sh, actually please create the script with a usage if no parameters are given, txs in advance.",
             "Language": [
                 "not_prog",
                 "not_prog"
@@ -2713,17 +1945,177 @@
             "is_program": false
         },
         {
-            "Line": "What dependencies should I add in npm?",
+            "Line": "How do I list network namespaces, I assume that's possible, if so change the script to use  paraemter`all` to show all the nns and `all list` to list just the nns names",
             "Language": [
                 "not_prog",
                 "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "How do I get the current date in Y-m-d format in GoLang?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "let x = () => {",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    let num = 1;",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    console.log(num)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    let y = () =>{",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "       let num = 2;",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "        console.log(num)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "        let z = () =>{",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "            let num = 3;",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "            console.log(num)",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "        }",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "        z();",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    }",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "    y();",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "}",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "x();",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Explain the code in deatailed",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "I would like to write a python program that reads a markdown table in the same way that you can use python to process a CSV file.",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "OK great. And, how do I write the resulting data structure back into a new markdown table?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "what does the `if __name__ == '__main__':` mean?",
+            "Language": [
+                "prog",
+                "prog"
             ],
             "is_program": false
         }
     ],
     "hacker news": [
         {
-            "Line": "Give me a daily schedule of a stoic hedonist",
+            "Line": "Hola {{nombre}, soy Alberto. Quisiera hablar contigo sobre c\u00f3mo podr\u00edamos trabajar el posicionamiento y la reputaci\u00f3n de tu negocio en internet publicando noticias en peri\u00f3dicos digitales de gran autoridad. \u00bfMe proporcionas un tel\u00e9fono para ofrecerte hasta dos meses gratuitos? Gracias.",
             "Language": [
                 "not_prog",
                 "not_prog"
@@ -2731,7 +2123,15 @@
             "is_program": false
         },
         {
-            "Line": "I'm helping the founder of a tech startup which enables Discord server administrators to opt in to having parts of their servers (selected channels) indexed by search engines. I've presented the argument that this could interfere with the \"cozy web\" aspect which makes Discord attractive to most users. They are sympathetic to this, and now we are looking to highlight how they're sensitive to this in their marketing copy. Can you help create some marketing copy which highlights how server administrators can select only channels which are most naturally \"public\"?",
+            "Line": "",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Translate it to English",
             "Language": [
                 "not_prog",
                 "not_prog"
@@ -2739,7 +2139,7 @@
             "is_program": false
         },
         {
-            "Line": "They are also interested in providing tracking/analytics such that server admins can know when people have found and joined their Discord via public index results. This would help to track whether and to what degree the service is attracting abusive users. Can you think of other ways they could limit their impact?",
+            "Line": "Are you sure?",
             "Language": [
                 "not_prog",
                 "not_prog"
@@ -2747,7 +2147,7 @@
             "is_program": false
         },
         {
-            "Line": "Why might people be hostile towards others posting simple copy-paste's of a chatgpt or bard dialog as a comment on a hacker news post?",
+            "Line": "I use Google Translate and it gives me a different output",
             "Language": [
                 "not_prog",
                 "not_prog"
@@ -2755,7 +2155,127 @@
             "is_program": false
         },
         {
-            "Line": "how much does a 48 x 30 inch jarvis bamboo standing desk setup weigh?",
+            "Line": "Here is an SVG image. Tell me, what's depicted on it?",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"500\" height=\"500\">",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "  <ellipse fill=\"#FFFFFF\" cx=\"275\" cy=\"300\" rx=\"100\" ry=\"150\" />",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "  <ellipse fill=\"#FFFFFF\" cx=\"330\" cy=\"220\" rx=\"80\" ry=\"70\" />",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "  <circle fill=\"black\" cx=\"310\" cy=\"200\" r=\"10\" />",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "  <circle fill=\"black\" cx=\"350\" cy=\"200\" r=\"10\" />",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "  <path fill=\"#FFFFFF\" d=\"M 290 170 Q 280 130 270 170 Z\" />",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "  <path fill=\"#FFFFFF\" d=\"M 370 170 Q 380 130 390 170 Z\" />",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "  <path fill=\"#FFFF00\" d=\"M 330 170 Q 330 120 340 70 Q 330 120 320 170 Z\" />",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "  <rect fill=\"#FFFFFF\" x=\"210\" y=\"380\" width=\"30\" height=\"120\" />",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "  <rect fill=\"#FFFFFF\" x=\"310\" y=\"380\" width=\"30\" height=\"120\" />",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "  <path fill=\"#FFFFFF\" d=\"M 180 280 Q 150 300 140 370 T 130 320 T 110 370\" />",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "</svg>",
+            "Language": [
+                "prog",
+                "prog"
+            ],
+            "is_program": true
+        },
+        {
+            "Line": "Is 17077 a prime number? Think step by step and then answer \"[Yes]\" or \"[No]\".",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "Is 17077 a prime number? Think step by step and then answer \"[Yes]\" or \"[No]\".",
+            "Language": [
+                "not_prog",
+                "not_prog"
+            ],
+            "is_program": false
+        },
+        {
+            "Line": "At what blood pressure level is drug intervention warranted?",
             "Language": [
                 "not_prog",
                 "not_prog"
