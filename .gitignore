@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+latest_gpt_conversations/
+
 # C extensions
 *.so
 
