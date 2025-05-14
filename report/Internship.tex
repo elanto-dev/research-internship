@@ -1,0 +1,110 @@
+\documentclass[11pt,a4paper]{report}
+
+\usepackage{url}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[all]{xy}
+\usepackage{adjustbox}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tikz} 
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\setlength {\marginparwidth }{2cm}
+\usepackage{todonotes}
+\usepackage{array}
+\usepackage{listings}
+\usepackage[a4paper]{geometry}
+\usepackage[american]{babel}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{glossaries}
+\usepackage{amssymb}
+\usepackage{upgreek}
+\usepackage{stmaryrd}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{mathtools}
+\usepackage{svg}
+\usepackage{dirtytalk}
+
+\makeatletter %otherwise geometry resets everything
+\Gm@restore@org
+\makeatother
+
+\setlength{\itemsep}{0cm}
+\setlength{\voffset}{0cm}
+\setlength{\headheight}{0cm}
+\setlength{\topmargin}{0cm}
+\setlength{\extrarowheight}{3pt} %for superscripts in tabular
+\setlength{\arraycolsep}{4pt}
+\lstset{basicstyle = \footnotesize, breaklines = true}
+
+\newcommand{\blackbowtie}{\blacktriangleright\kern-.4em\blacktriangleleft}
+\newcommand{\doubleplus}{+\kern-1.3ex+\kern0.8ex}
+\newcommand{\sand}{\&\kern-1ex\&}
+\newcommand{\sor}{||}
+\newcommand{\step}{>\kern-1ex>\kern-0.8ex*\kern0.8ex}
+\newcommand{\boxcirc}{$\square$\kern-1.45ex\raisebox{1pt}{$\circ$}\kern1ex}
+\newcommand{\noop}[1]{}
+\newcommand{\smallerspace}{\vspace{-.5cm}}
+
+\graphicspath{{imgs/}}
+
+\makeglossaries
+\loadglsentries{acronyms}
+
+\begin{document}
+\begin{titlepage}
+\begin{center}
+\textsc{\LARGE Research Internship Report\\Software Science}\\[1.5cm]
+\includegraphics[height=100pt]{logo}
+
+\vspace{0.4cm}
+\textsc{\Large Radboud University}\\[1cm]
+\hrule
+\vspace{0.4cm}
+\textbf{\huge Internship report with some cool name}\\[0.4cm]
+\hrule
+\vspace{2cm}
+\begin{minipage}[t]{0.45\textwidth}
+\begin{flushleft} \large
+\textit{Author:}\\
+Elina Antonova\\
+s1057069
+\end{flushleft}
+\end{minipage}
+\begin{minipage}[t]{0.45\textwidth}
+\begin{flushright} \large
+\textit{Supervisor:}\\
+dr. Mairieli Wessel \\
+\texttt{mairieli.wessel@ru.nl}\\[1.3cm]
+\end{flushright}
+\end{minipage}
+\vfill
+{\large \today}
+\end{center}
+\end{titlepage}
+
+\input{abstract}
+
+\tableofcontents
+
+\input{introduction}
+\input{related-work}
+\input{methodology}
+\input{results}
+\input{conclusions}
+
+\bibliographystyle{ieeetr}
+\bibliography{bibliography}
+
+\printglossary
+
+\input{progress-overview}
+
+\appendix
+\input{appendix}
+
+\end{document}

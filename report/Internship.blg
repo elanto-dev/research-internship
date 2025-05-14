@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Internship.aux
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+The style file: ieeetr.bst
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+Database file #1: bibliography.bib
+Warning--empty school in Hörnemalm_2023
+Warning--empty booktitle in watanabe-code-review-chatgpt
+You've used 41 entries,
+            1876 wiz_defined-function locations,
+            694 strings with 12154 characters,
+and the built_in function-call counts, 12639 in all, are:
+= -- 1235
+> -- 558
+< -- 0
++ -- 201
+- -- 160
+* -- 759
+:= -- 1612
+add.period$ -- 45
+call.type$ -- 41
+change.case$ -- 39
+chr.to.int$ -- 0
+cite$ -- 43
+duplicate$ -- 810
+empty$ -- 1108
+format.name$ -- 160
+if$ -- 3223
+int.to.chr$ -- 0
+int.to.str$ -- 41
+missing$ -- 31
+newline$ -- 130
+num.names$ -- 43
+pop$ -- 186
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 733
+stack$ -- 0
+substring$ -- 502
+swap$ -- 440
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 74
+width$ -- 43
+write$ -- 419
+(There were 2 warnings)
