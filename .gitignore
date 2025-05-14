@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 
 latest_gpt_conversations/
+cleaned_datasets/
 
 # C extensions
 *.so
