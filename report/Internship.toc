@@ -3,26 +3,26 @@
 \contentsline {chapter}{\numberline {2}Background}{4}{chapter.2}%
 \contentsline {section}{\numberline {2.1}ChatGPT and interaction with it}{4}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Related works}{5}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Methodology}{7}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Data}{7}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Data cleaning}{8}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Language detection}{8}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Program lines detection and its accuracy}{8}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Data exploration}{10}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Statistics and outliers}{11}{subsection.3.3.1}%
+\contentsline {chapter}{\numberline {3}Data}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Data cleaning}{8}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Code detection and its accuracy}{8}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Language detection}{10}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Data exploration}{11}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Statistics and outliers}{11}{subsection.3.2.1}%
 \contentsline {subsubsection}{Number of prompts in conversations}{11}{section*.4}%
-\contentsline {subsubsection}{Outliers and their content}{13}{section*.7}%
-\contentsline {subsubsection}{Average symbol/word count per prompt}{14}{section*.8}%
-\contentsline {subsubsection}{Outliers and their content}{16}{section*.11}%
-\contentsline {section}{\numberline {3.4}Data preparation}{16}{section.3.4}%
-\contentsline {section}{\numberline {3.5}N-grams}{17}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Topic modelling}{18}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Sequence mining}{18}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Limitations}{18}{section.3.8}%
-\contentsline {chapter}{\numberline {4}Results}{20}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Statistics and outliers}{20}{section.4.1}%
-\contentsline {section}{\numberline {4.2}N-grams}{20}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Topic modelling}{20}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Sequence mining}{20}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Discussion and conclusion}{21}{chapter.5}%
-\contentsline {chapter}{\numberline {A}Appendix}{29}{appendix.A}%
+\contentsline {subsubsection}{Long conversations contents}{12}{section*.7}%
+\contentsline {subsubsection}{Average symbol/word count per prompt}{13}{section*.8}%
+\contentsline {subsubsection}{Long prompt contents}{14}{section*.10}%
+\contentsline {chapter}{\numberline {4}Methodology}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Data preparation}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}N-grams}{16}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Topic modelling}{16}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Sequence mining}{17}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Limitations}{17}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Results}{19}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Statistics and outliers}{19}{section.5.1}%
+\contentsline {section}{\numberline {5.2}N-grams}{19}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Topic modelling}{19}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Sequence mining}{19}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Discussion and conclusion}{20}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Appendix}{28}{appendix.A}%

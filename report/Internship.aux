@@ -63,72 +63,71 @@
 \citation{Wu2024-promptpatterns}
 \citation{Mondal2024-prompts-issues}
 \citation{devgpt}
-\@writefile{toc}{\contentsline {chapter}{\numberline {3}Methodology}{7}{chapter.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Data}{7}{chapter.3}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{methodology}{{3}{7}{Methodology}{chapter.3}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}Data}{7}{section.3.1}\protected@file@percent }
-\@writefile{tdo}{\contentsline {todo}{discuss that DevGPT dataset was extended with more data}{7}{section*.2}\protected@file@percent }
-\pgfsyspdfmark {pgfid1}{7750942}{29384260}
-\pgfsyspdfmark {pgfid4}{33847557}{29397716}
-\pgfsyspdfmark {pgfid5}{35695852}{29152530}
-\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Number of conversations after all the duplicates (DR) and non-English conversations (NE) were removed from the data.}}{7}{table.caption.3}\protected@file@percent }
+\newlabel{sec:data}{{3}{7}{Data}{chapter.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Number of conversations after all the duplicates (DR) and non-English conversations (NE) were removed from the data.}}{7}{table.caption.2}\protected@file@percent }
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{table:data_stat}{{3.1}{7}{Number of conversations after all the duplicates (DR) and non-English conversations (NE) were removed from the data}{table.caption.3}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}Data cleaning}{8}{section.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Language detection}{8}{subsection.3.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Program lines detection and its accuracy}{8}{subsection.3.2.2}\protected@file@percent }
-\newlabel{sec:prog-identification}{{3.2.2}{8}{Program lines detection and its accuracy}{subsection.3.2.2}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}Data exploration}{10}{section.3.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Statistics and outliers}{11}{subsection.3.3.1}\protected@file@percent }
+\newlabel{table:data_stat}{{3.1}{7}{Number of conversations after all the duplicates (DR) and non-English conversations (NE) were removed from the data}{table.caption.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Data cleaning}{8}{section.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Code detection and its accuracy}{8}{subsection.3.1.1}\protected@file@percent }
+\newlabel{sec:prog-identification}{{3.1.1}{8}{Code detection and its accuracy}{subsection.3.1.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces Accuracy and F-score of the code detection script per data source category.}}{10}{table.caption.3}\protected@file@percent }
+\newlabel{table:script-accuracy}{{3.2}{10}{Accuracy and F-score of the code detection script per data source category}{table.caption.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Language detection}{10}{subsection.3.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Data exploration}{11}{section.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Statistics and outliers}{11}{subsection.3.2.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{Number of prompts in conversations}{11}{section*.4}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces Median, mean and standard deviation of the conversation lengths from different sources.}}{12}{table.caption.5}\protected@file@percent }
-\newlabel{table:conv-lengths}{{3.2}{12}{Median, mean and standard deviation of the conversation lengths from different sources}{table.caption.5}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Number of conversations per prompt number for all conversation sources.}}{13}{figure.caption.6}\protected@file@percent }
-\newlabel{fig:conv-per-prompt}{{3.1}{13}{Number of conversations per prompt number for all conversation sources}{figure.caption.6}{}}
-\@writefile{toc}{\contentsline {subsubsection}{Outliers and their content}{13}{section*.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Average symbol/word count per prompt}{14}{section*.8}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Average symbol count per prompt number for all conversation sources after code lines were removed.}}{15}{figure.caption.9}\protected@file@percent }
-\newlabel{fig:symbols-per-prompt}{{3.2}{15}{Average symbol count per prompt number for all conversation sources after code lines were removed}{figure.caption.9}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Average word count per prompt number for all conversation sources after code lines were removed.}}{15}{figure.caption.10}\protected@file@percent }
-\newlabel{fig:words-per-prompt}{{3.3}{15}{Average word count per prompt number for all conversation sources after code lines were removed}{figure.caption.10}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3.3}{\ignorespaces Median, mean and standard deviation of the conversation lengths from different sources.}}{12}{table.caption.5}\protected@file@percent }
+\newlabel{table:conv-lengths}{{3.3}{12}{Median, mean and standard deviation of the conversation lengths from different sources}{table.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Lengths of conversations in histogram gathered from different sources.}}{12}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:conv-per-prompt}{{3.1}{12}{Lengths of conversations in histogram gathered from different sources}{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Long conversations contents}{12}{section*.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Average symbol/word count per prompt}{13}{section*.8}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Average symbol count per prompt number for all conversation sources after code lines were removed.}}{13}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:symbols-per-prompt}{{3.2}{13}{Average symbol count per prompt number for all conversation sources after code lines were removed}{figure.caption.9}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Long prompt contents}{14}{section*.10}\protected@file@percent }
 \citation{pywsd14}
 \citation{nltk}
-\@writefile{toc}{\contentsline {subsubsection}{Outliers and their content}{16}{section*.11}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.4}Data preparation}{16}{section.3.4}\protected@file@percent }
-\newlabel{sec:data-prep}{{3.4}{16}{Data preparation}{section.3.4}{}}
 \citation{n-grams}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Methodology}{15}{chapter.4}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{methodology}{{4}{15}{Methodology}{chapter.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Data preparation}{15}{section.4.1}\protected@file@percent }
+\newlabel{sec:data-prep}{{4.1}{15}{Data preparation}{section.4.1}{}}
 \citation{wordcloud}
 \citation{topic-model}
-\@writefile{toc}{\contentsline {section}{\numberline {3.5}N-grams}{17}{section.3.5}\protected@file@percent }
 \citation{tong-topic-modelling}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}N-grams}{16}{section.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Topic modelling}{16}{section.4.3}\protected@file@percent }
 \citation{scikitlearnCountVectorizer}
 \citation{scikitlearnLatentDirichletAllocation}
-\@writefile{toc}{\contentsline {section}{\numberline {3.6}Topic modelling}{18}{section.3.6}\protected@file@percent }
-\@writefile{tdo}{\contentsline {todo}{Code: remove split, use fit\_transform}{18}{section*.12}\protected@file@percent }
-\pgfsyspdfmark {pgfid6}{26965015}{23741667}
-\pgfsyspdfmark {pgfid9}{33847557}{23755123}
-\pgfsyspdfmark {pgfid10}{35695852}{23509937}
-\@writefile{toc}{\contentsline {section}{\numberline {3.7}Sequence mining}{18}{section.3.7}\protected@file@percent }
-\@writefile{tdo}{\contentsline {todo}{add}{18}{section*.13}\protected@file@percent }
-\pgfsyspdfmark {pgfid11}{7750942}{18096099}
-\pgfsyspdfmark {pgfid14}{33847557}{18109555}
-\pgfsyspdfmark {pgfid15}{35695852}{17864369}
-\@writefile{toc}{\contentsline {section}{\numberline {3.8}Limitations}{18}{section.3.8}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Results}{20}{chapter.4}\protected@file@percent }
+\@writefile{tdo}{\contentsline {todo}{Code: remove split, use fit\_transform}{17}{section*.11}\protected@file@percent }
+\pgfsyspdfmark {pgfid1}{26965015}{33365208}
+\pgfsyspdfmark {pgfid4}{33847557}{33378664}
+\pgfsyspdfmark {pgfid5}{35695852}{33133478}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Sequence mining}{17}{section.4.4}\protected@file@percent }
+\@writefile{tdo}{\contentsline {todo}{add}{17}{section*.12}\protected@file@percent }
+\pgfsyspdfmark {pgfid6}{7750942}{27719640}
+\pgfsyspdfmark {pgfid9}{33847557}{27733096}
+\pgfsyspdfmark {pgfid10}{35695852}{27487910}
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}Limitations}{17}{section.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Results}{19}{chapter.5}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{results}{{4}{20}{Results}{chapter.4}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Statistics and outliers}{20}{section.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}N-grams}{20}{section.4.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}Topic modelling}{20}{section.4.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}Sequence mining}{20}{section.4.4}\protected@file@percent }
+\newlabel{results}{{5}{19}{Results}{chapter.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Statistics and outliers}{19}{section.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}N-grams}{19}{section.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Topic modelling}{19}{section.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}Sequence mining}{19}{section.5.4}\protected@file@percent }
 \bibstyle{ieeetr}
 \bibdata{bibliography}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Discussion and conclusion}{21}{chapter.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Discussion and conclusion}{20}{chapter.6}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{conclusions}{{5}{21}{Discussion and conclusion}{chapter.5}{}}
+\newlabel{conclusions}{{6}{20}{Discussion and conclusion}{chapter.6}{}}
 \bibcite{gpt-usage-and-lim}{1}
 \bibcite{Dale_2021}{2}
 \bibcite{Floridi2020-gpt3paper}{3}
@@ -170,10 +169,10 @@
 \bibcite{tong-topic-modelling}{39}
 \bibcite{scikitlearnCountVectorizer}{40}
 \bibcite{scikitlearnLatentDirichletAllocation}{41}
-\newlabel{reflection}{{5}{28}{Reflection on research process}{chapter*.17}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {A}Appendix}{29}{appendix.A}\protected@file@percent }
+\newlabel{reflection}{{6}{27}{Reflection on research process}{chapter*.16}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {A}Appendix}{28}{appendix.A}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{appendix}{{A}{29}{Appendix}{appendix.A}{}}
+\newlabel{appendix}{{A}{28}{Appendix}{appendix.A}{}}
 \gdef\svg@ink@ver@settings{{\m@ne }{inkscape}{1}}
-\gdef \@abspage@last{31}
+\gdef \@abspage@last{30}

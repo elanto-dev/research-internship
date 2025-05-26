@@ -6,6 +6,9 @@ __pycache__/
 latest_gpt_conversations/
 cleaned_datasets/
 
+too_long_conversations.json
+too_long_prompts.json
+
 # C extensions
 *.so
 
