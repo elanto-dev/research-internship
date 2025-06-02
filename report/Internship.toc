@@ -16,7 +16,7 @@
 \contentsline {chapter}{\numberline {4}Methodology}{15}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Data preparation}{15}{section.4.1}%
 \contentsline {section}{\numberline {4.2}N-grams}{16}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Topic modelling}{16}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Topic modelling}{17}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Sequence mining}{17}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Limitations}{17}{section.4.5}%
 \contentsline {chapter}{\numberline {5}Results}{19}{chapter.5}%
