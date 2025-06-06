@@ -1,9 +1,52 @@
-\chapter{Results} \label{results}
-In this chapter we provide insights into the knowledge we managed to extract during the analysis of developers prompts in developer-\gls{gpt} interaction. This chapter focuses on the results extracted from statistical analysis, N-grams, topic modelling and sequence mining of the prompts. 
-
-\section{Statistics and outliers}
+\chapter{Results}\label{results}
+In this chapter we provide insights into the knowledge we managed to extract during the analysis of developers prompts in developer-\acrshort{gpt} interaction. This chapter focuses on the results extracted from N-grams, topic modelling and sequence mining of the prompts. 
 
 \section{N-grams}
+N-grams are extracted in order to provide an overview of the most common lexical patterns found within the data. Data gathered from each source was analysed separately and the most common 1- to 4-grams were extracted. Table~\ref{table:common-ngrams} shows interesting tri- and quadri-grams extracted from various data sources. 
+
+\begin{longtable}{|l|c|m{8cm}|}
+    \hline
+    Source & n & Found n-grams  \\
+    \hline
+        \multirow{2}{*}{GitHub commits} & 3 & shell script create, encode enclose result, avoid use sed, implement following feature  \\
+        \cline{2-3}
+        & 4 & script create change file, avoid use sed favor, task implement following feature \\
+    \hline
+        \multirow{2}{*}{GitHub issues} & 3 & th block th, valid string generation, state lookahead token, kernel patch instal \\
+        \cline{2-3}
+        & 4 & td th block th, string generation metadata information, metadata information visit input, community edition line module \\
+    \hline
+        \multirow{2}{*}{GitHub discussions} & 3 & technology feasibility stable, operational feasibility challenge, clause potentially unfair, employee desirability mixed/high, open/close code environment \\
+        \cline{2-3}
+        & 4 & technology feasibility stable employee, employee desirability high team \\
+    \hline
+        \multirow{2}{*}{GitHub pull requests} & 3 & gazebo sensor imu, plugin sensor accelerometer, deprecate pip enforce, possible replacement use  \\
+        \cline{2-3}
+        & 4 & coelemic cavity lumen subclassof, gazebo sensor imu plugin, sensor accelerometer parent origin, replacement use pip package, string sure want delete \\
+    \hline
+        \multirow{2}{*}{GitHub code files} & 3 & rdf type owl, restriction owl minqualifiedcardinality, passage book rewrite, break fourth wall\\
+        \cline{2-3}
+        & 4 & rdf type owl objectproperty, rdfs subpropertyof owl topobjectproperty, george r r martin, book rewrite passage remove, break fourth wall include, wall include reference reader \\
+    \hline
+        \multirow{2}{*}{GitHub repositories} & 3 & fill height viewport, increase understanding universe, help reduce suffering, research educational institution \\
+        \cline{2-3}
+        & 4 & height fill height viewport, leave position foreground scyscraper, reduce suffering increase prosperity, prosperity increase understanding universe, planet intellectual community train \\
+    \hline
+        \multirow{2}{*}{Hacker News} & 3 & capture position position, form line capture, tic tac toe, session user host, level level headline \\
+        \cline{2-3}
+        & 4 & form line capture position, x currently form line, headline insert concat star, concat star schedule progn \\
+    \hline
+\caption{Interesting 3- and 4-grams extracted from the data.}
+\label{table:common-ngrams}
+\end{longtable}
+
+The extracted n-grams reveal distinct linguistic and thematic patterns across different data sources. Prompts from GitHub commits and pull requests use task-oriented, direct and action-driven communication typical of development workflows. The prompts often focus on modifying, automating or improving code artefacts. In contrast, GitHub discussions contain  planning-related n-grams like ``clause potentially unfair'' and ``technology feasibility stable employee'', suggesting that contributors debate feasibility and desirability of the solution, not just technical correctness. 
+
+GitHub repositories show recurring themes in UI rendering (e.g.m CSS and Viewport references) as well as humanitarian, educational, and scientific discussions. However, prompts from GitHub issues and code files is influenced by embedded code or markup, such as HTML and RDF/OWL artefacts --- indicating developers often seek help with specific technical problems.
+
+Hacker News conversations differ by a less technical, more playful approach. N-grams like ``tic tac toe'', ``form line capture position'', and ``headline insert concat star'' combine elements of game logic, syntax play, and UI behavior, typical of exploratory or playful community posts.
+
+In conclusion, each platform reflects its users’ intent --- ranging from practical coding to ethical reflection to creative exploration.
 
 \section{Topic modelling}
 

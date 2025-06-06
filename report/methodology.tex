@@ -33,6 +33,10 @@ For easier visualisation, we use the WordCloud package~\cite{wordcloud} to gener
 
 During the initial extraction process, we observed that some tri-grams and quadri-grams contained repeated instances of the same word \linebreak(e.g., $(position, position, position)$). This effect is likely caused by the combination of lemmatization/stemming, stop word removal and imperfect code lines detection script, which can cause sequences of otherwise distinct words to collapse into repeated lemmas. To improve our results, we chose to exclude any n-grams that contain the same token repeated three or more times. This filtering step helps the quality of the analysis while preserving the patterns in the dataset.
 
+
+\section{Sequence mining}
+\todo{add}
+
 \section{Topic modelling}
 Topic models are generative models that provide a probabilistic framework~\cite{topic-model}. These models are used for large electronic text collections to organise, understand, search and summarise their content. 
 
@@ -41,9 +45,6 @@ The topics are the relations that link words in a vocabulary and their occurrenc
 In this study we use \acrfull{lda} topic modelling --- one of the most popular text modelling techniques. \Acrshort{lda} is a probabilistic generative model that allows the observations to be described by unobserved data that explains why some parts of the data are similar to each other~\cite{tong-topic-modelling}. In \acrshort{lda}, documents consist of multiple topics and each topic is a distribution over a fixed vocabulary. For example, if we have the  following vocabulary of \{\textit{pan, cook, football, basketball}\}, then the kitchen topic will assigne high probabilities to the words \textit{pan} and \textit{cook}, while \textit{football} and \textit{basketball} will have very low probabilities; however, the sport topic will have the opposite probabilities for all the words. 
 
 In the implementation we use the data cleaned in the pre-processing step as described in Section~\ref{sec:data-prep}. We start with creating the vacabulary: this is done using \textit{CountVectorizer} class to convert a collection of text documents to a matrix of token counts~\cite{scikitlearnCountVectorizer}. The parameters of \textit{min\_df} and \textbf{max\_df} are set to 0 and 1 respectively; \textit{ngram\_range} is set to tuple of (1,4), making vocabulary to consist of n-grams of the length 1 to 4 words; and the stop words are the stop words from \textbf{nltk} package. For topic modelling we use \textit{LatentDirichletAllocation} class from \textbf{sklearn} package~\cite{scikitlearnLatentDirichletAllocation}\todo{Code: remove split, use fit\_transform}, where we set number of topics to 10, iteration count to 6 and random state to 42. We calculate perplexity and coherence score of the topic model and visualise them along with WordCloud visualisation of the topics. 
-
-\section{Sequence mining}
-\todo{add}
 
 \section{Limitations}
 There exist limitations of the dataset and methods selected for this study that influence the results of the research. These limitation are addressed in this section. 
