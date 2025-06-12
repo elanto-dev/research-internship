@@ -1,9 +1,9 @@
 \chapter{Data}\label{sec:data}
-To answer the research question, we used the DevGPT dataset~\cite{devgpt}, which contains \acrshort{gpt} conversations shared on GitHub and Hacker News between late May 2023 and October 12, 2023. The dataset includes nine snapshots (latest: October 12, 2023), each comprising links to \acrshort{gpt} conversations found in GitHub commits, issues, discussions, pull requests, code files, and Hacker News articles.
+To answer the research question, we used the DevGPT dataset~\cite{devgpt}, which contains \acrshort{gpt} conversations shared on GitHub and Hacker News between late May 2023 and October 12, 2023. The dataset includes nine snapshots (latest: October 12, 2023), each comprising links to \acrshort{gpt} conversations found in GitHub commits, issues, discussions, pull requests, code files, and Hacker News articles. Considering the origins the conversations were sourced from, it is safe to assume that the prompts for this conversations were written by software developers.
 
-In this study, we use data from all available snapshots. To ensure data quality, we removed duplicate entries based on shared \acrshort{gpt} conversation links. Additionally, we extended the DevGPT dataset with a new dataset collected in March 2025. This extension contains developer-chatbot conversations shared in the same sources but posted after the latest DevGPT snapshot. The structure of the extended dataset mirrors that of DevGPT to maintain consistency.
+In this study, we use data from all available snapshots. To ensure data quality, we removed duplicate entries based on shared \acrshort{gpt} conversation links. Additionally, we extended the DevGPT dataset with a new dataset collected in March 202. This extension contains developer-chatbot conversations shared in the same sources but posted after the latest DevGPT snapshot. The structure of the extended dataset mirrors that of DevGPT to maintain consistency. The dataset was provided for this research by author's colleagues from the same research group.
 
-Table~\ref{table:data_stat} presents the number of unique conversations in each dataset and in total, along with the remaining number of conversations after removing duplicates and non-English conversations.
+Table~\ref{table:data_stat} presents the number of unique conversations sourced from each data source, along with the remaining number of conversations after removing duplicates and non-English conversations.
 
 \begin{table}[h]
     \centering
@@ -12,27 +12,44 @@ Table~\ref{table:data_stat} presents the number of unique conversations in each 
         \hline
         & Commits & Issues & Discussions & Pull req. & Code files & Repositories & Hacker News & Total \\
         \hline
+        \hline
         DevGPT DR & 670 & 516 & 59 & 268 & 2010 & 0 & 322 & 3845\\
         \hline
         Extension DR & 881 & 1134 & 65 & 775 & 9536 & 10 & 805 & 13206 \\
         \hline
         Combined DR & 896 & 1235 & 113 & 813 & 9959 & 10 & 858 & 13884 \\
         \hline
-        Combined NE & 858 & 986 & 89 & 665 & 7968 & 8 & 755 & 11329 \\
+        Combined NE & 862 & 998 & 89 & 682 & 8057 & 8 & 773 & 11469 \\
         \hline
     \end{tabular}
     }
-    \caption{Number of conversations after all the duplicates (DR) and non-English conversations (NE) were removed from the data.}
+    \caption{Number of conversations collected from different sources after all the duplicates (DR) and non-English conversations (NE) were removed from the data.}
     \label{table:data_stat}
 \end{table}
 
-The total number of conversations shared across all the sources is 13884. However, after removing duplicate conversations from the entire combined dataset, it leaves us with 12574 conversations, which means that 1310 \linebreak developer-\acrshort{gpt} conversations are shared in multiple locations. However, dataset contains only 10146 unique conversations out of 11329 conversations sourced from all seven locations after non-english conversations are removed.
+The total number of conversations shared across all the sources after duplicates and non-English conversations were removed is 11469. However, after removing duplicate conversations from the entire combined dataset, it leaves us with 10279 conversations, which means that 1190 \linebreak developer-\acrshort{gpt} conversations are shared in multiple locations.
 
 \section{Data cleaning}
-During our initial analysis of the dataset, we identified the presence of information irrelevant to the research question --- referred to as ``noise''. First, many prompts contain embedded code alongside natural language. Second, while we focus exclusively on English-language conversations, the dataset includes interactions in multiple languages. Both factors introduce noise that must be removed before proceeding with data exploration and answering the research questions.
+During our initial analysis of the dataset, we identified the presence of information irrelevant to the research question --- referred to as ``noise''. First, many prompts contain embedded code alongside natural language. A good example of this is the following prompt from DevGPT dataset sourced from GitHub Issues: 
+
+\textit{So you want me to hard code the password in this section of src/pages/\linebreak api/getDeviceInfo.js?}
+\begin{fleqn}
+\begin{flalign*}
+const \ &pool = new \ Pool(\{ \\
+&host: process.env.PGHOST\_2,\\
+&port: process.env.PGPORT\_2,\\
+&database: process.env.PGDATABASE\_2,\\
+&user: process.env.PGUSER\_2,\\
+\});
+\end{flalign*}
+\end{fleqn}
+
+Second, while we focus exclusively on English-language conversations, the dataset includes interactions in multiple languages. For example, the following prompts was sourced from conversation shared in GitHub commits: \textit{mach mir noch so eine aufgabe zu dem selben muster, damit ich das thema besser verstehen kann}. 
+
+Both of the mentioned factors introduce noise that must be removed before proceeding with data exploration and answering the research questions.
 
 \subsection{Code detection and its accuracy}\label{sec:prog-identification}
-Initially we attempted to detect programming language content using the Guesslang Python library\footnote{\url{https://pypi.org/project/guesslang/}}, but its accuracy and recall were too low for our dataset. As a result, we developed a custom method for identifying and filtering out programming lines.
+Initially we attempted to detect programming language content using the Guesslang Python library\footnote{\url{https://pypi.org/project/guesslang/}}, but its accuracy and F1-score were too low for our dataset. As a result, we developed a custom method for identifying and filtering out programming lines.
 
 To identify code segments within prompts, we first split each prompt into individual lines using the line break character (\textit{\textbackslash n}). We then applied a custom script to estimate the likelihood that each line contains code. This approach is based on the assumption that code blocks typically appear on separate lines from natural language text and often span multiple lines within a prompt. As a result, line-by-line analysis is necessary to accurately detect code.
 
@@ -94,12 +111,12 @@ The effectiveness of the code detection script was evaluated using ten randomly 
 
 False-positives and false-negatives were examined to better understand the types of errors made by the code detection script. The most common false-negatives occurred with error messages or log outputs, which often contain large amounts of natural language, making them difficult to distinguish from regular text. On the contrary, sentences with a high number of punctuation marks were frequently misclassified as code, even when they were not. For instance, lines such as \textit{``Done.''} and \textit{``- Prefer async/await over promises!''} were incorrectly identified as code, although they could plausibly be part of natural language text.
 
-This evaluation method also has limitations, particularly in handling multi-line HTML or comment blocks. Because lines for testing are selected randomly, it is possible to include a line that starts a multi-line HTML tag or comment block without capturing the corresponding closing line. As a result, following lines may be incorrectly labelled as part of HTML or a comment.
+This evaluation method also has limitations, particularly in handling multi-line HTML or comment blocks. Because lines for testing are selected randomly, it is possible to include a line that starts a multi-line HTML tag or comment block without capturing the corresponding closing line. As a result, following lines may be incorrectly labelled as part of HTML or a comment. Additionally, some lines contain both code and natural language, making results of the code detection depend on their proportion. Examples of such lines are questions that contain short code snippets in them. The presence of the code in such sentences might affect the research results and can be considered a limitation of the current data cleaning method. 
 
 Despite these limitations, the script achieved an average accuracy and F-score of over 90\%, which we consider a good result for the purposes of this research.
 
 \subsection{Language detection}
-For language detection, we used two existing libraries: \textit{langdetect\footnote{\url{https://pypi.org/project/langdetect/}}} and \textit{pycld2 (Compact Langauge Detect 2)\footnote{\url{https://pypi.org/project/pycld2/}}}. Using both libraries improves detection accuracy --- if one library fails to identify the language, the result from the other helps determine whether the prompt should be kept (if detected as English) or discarded.
+For language detection, which occurs after code lines were removed, we used two existing libraries: \textit{langdetect\footnote{\url{https://pypi.org/project/langdetect/}}} and \textit{pycld2 (Compact Langauge Detect 2)\footnote{\url{https://pypi.org/project/pycld2/}}}. Using both libraries improves detection accuracy --- if one library fails to identify the language, the result from the other helps determine whether the prompt should be kept (if detected as English) or discarded.
 
 The language identification process operates at the line level: each prompt is split into individual lines, and the language is identified for each line separately. If a line is detected as containing only programming code (as described in Section~\ref{sec:prog-identification}), it is marked as code and excluded from language detection. This approach helps avoid misclassifying non-English prompts as English due to the presence of English keywords commonly found in code.
 

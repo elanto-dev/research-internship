@@ -213,6 +213,33 @@ Z.~Elberrichi and B.~Aljohar, ``N-grams in texts categorization,'' {\em
 \bibitem{wordcloud}
 A.~C. Mueller, ``Wordcloud,'' 2023.
 
+\bibitem{bou2018medical}
+C.~Bou~Rjeily, G.~Badr, A.~Hajjarm El~Hassani, and E.~Andres, ``Medical data
+  mining for heart diseases and the future of sequential mining in medical
+  field,'' in {\em Machine learning paradigms: Advances in data analytics},
+  pp.~71--99, Springer, 2018.
+
+\bibitem{agrawal1995mining}
+R.~Agrawal and R.~Srikant, ``Mining sequential patterns,'' in {\em Proceedings
+  of the eleventh international conference on data engineering}, pp.~3--14,
+  IEEE, 1995.
+
+\bibitem{requena2020shopper}
+B.~Requena, G.~Cassani, J.~Tagliabue, C.~Greco, and L.~Lacasa, ``Shopper intent
+  prediction from clickstream e-commerce data with minimal browsing
+  information,'' {\em Scientific reports}, vol.~10, no.~1, p.~16983, 2020.
+
+\bibitem{seq2pat}
+S.~Kadıoğlu, X.~Wang, A.~Hosseininasab, and W.-J. van Hoeve, ``Seq2pat:
+  Sequence-to-pattern generation to bridge pattern mining with machine
+  learning,'' {\em AI Magazine}, vol.~44, no.~1, pp.~54--66, 2023.
+
+\bibitem{seq2pat2022}
+X.~Wang, A.~Hosseininasab, P.~Colunga, S.~Kadıoğlu, and W.-J. van Hoeve,
+  ``Seq2pat: Sequence-to-pattern generation for constraint-based sequential
+  pattern mining,'' {\em Proceedings of the AAAI Conference on Artificial
+  Intelligence}, vol.~36, pp.~12665--12671, Jun. 2022.
+
 \bibitem{topic-model}
 B.~Grün and K.~Hornik, ``topicmodels: An r package for fitting topic models,''
   {\em Journal of Statistical Software}, vol.~40, no.~13, p.~1–30, 2011.
