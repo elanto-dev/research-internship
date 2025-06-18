@@ -13,16 +13,17 @@
 \contentsline {subsubsection}{Long conversations contents}{13}{section*.7}%
 \contentsline {subsubsection}{Average symbol/word count per prompt}{13}{section*.8}%
 \contentsline {subsubsection}{Long prompt contents}{14}{section*.10}%
+\contentsline {section}{\numberline {3.3}Data limitations}{15}{section.3.3}%
 \contentsline {chapter}{\numberline {4}Methodology}{16}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Data preparation}{16}{section.4.1}%
 \contentsline {section}{\numberline {4.2}N-grams}{17}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Sequential pattern mining}{18}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Topic modelling}{18}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Limitations}{19}{section.4.5}%
 \contentsline {chapter}{\numberline {5}Results}{21}{chapter.5}%
 \contentsline {section}{\numberline {5.1}N-grams}{21}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Topic modelling}{23}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Sequence mining}{23}{section.5.3}%
+\contentsline {section}{\numberline {5.2}Sequential pattern mining}{23}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Topic modelling}{23}{section.5.3}%
 \contentsline {chapter}{\numberline {6}Discussion and conclusion}{24}{chapter.6}%
 \contentsline {chapter}{\numberline {A}Appendix}{32}{appendix.A}%
 \contentsline {section}{\numberline {A.1}N-grams WordClouds}{32}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Topic models' WordClouds}{36}{section.A.2}%

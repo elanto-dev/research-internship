@@ -1,7 +1,7 @@
 \chapter{Data}\label{sec:data}
 To answer the research question, we used the DevGPT dataset~\cite{devgpt}, which contains \acrshort{gpt} conversations shared on GitHub and Hacker News between late May 2023 and October 12, 2023. The dataset includes nine snapshots (latest: October 12, 2023), each comprising links to \acrshort{gpt} conversations found in GitHub commits, issues, discussions, pull requests, code files, and Hacker News articles. Considering the origins the conversations were sourced from, it is safe to assume that the prompts for this conversations were written by software developers.
 
-In this study, we use data from all available snapshots. To ensure data quality, we removed duplicate entries based on shared \acrshort{gpt} conversation links. Additionally, we extended the DevGPT dataset with a new dataset collected in March 202. This extension contains developer-chatbot conversations shared in the same sources but posted after the latest DevGPT snapshot. The structure of the extended dataset mirrors that of DevGPT to maintain consistency. The dataset was provided for this research by author's colleagues from the same research group.
+In this study, we use data from all available snapshots. To ensure data quality, we removed duplicate entries based on shared \acrshort{gpt} conversation links. Additionally, we extended the DevGPT dataset with a new dataset collected in March 2025. This extension contains developer-chatbot conversations shared in the same sources but posted after the latest DevGPT snapshot. The structure of the extended dataset mirrors that of DevGPT to maintain consistency. The dataset was provided for this research by author's colleagues from the same research group.
 
 Table~\ref{table:data_stat} presents the number of unique conversations sourced from each data source, along with the remaining number of conversations after removing duplicates and non-English conversations.
 
@@ -19,7 +19,7 @@ Table~\ref{table:data_stat} presents the number of unique conversations sourced 
         \hline
         Combined DR & 896 & 1235 & 113 & 813 & 9959 & 10 & 858 & 13884 \\
         \hline
-        Combined NE & 862 & 998 & 89 & 682 & 8057 & 8 & 773 & 11469 \\
+        Combined NE & 861 & 990 & 89 & 672 & 7980 & 8 & 760 & 11360 \\
         \hline
     \end{tabular}
     }
@@ -27,7 +27,7 @@ Table~\ref{table:data_stat} presents the number of unique conversations sourced 
     \label{table:data_stat}
 \end{table}
 
-The total number of conversations shared across all the sources after duplicates and non-English conversations were removed is 11469. However, after removing duplicate conversations from the entire combined dataset, it leaves us with 10279 conversations, which means that 1190 \linebreak developer-\acrshort{gpt} conversations are shared in multiple locations.
+The total number of conversations shared across all the sources after duplicates and non-English conversations were removed is 11360. However, after removing duplicate conversations from the entire combined dataset, it leaves us with 10175 conversations, which means that 1185 \linebreak developer-\acrshort{gpt} conversations are shared in multiple locations.
 
 \section{Data cleaning}
 During our initial analysis of the dataset, we identified the presence of information irrelevant to the research question --- referred to as ``noise''. First, many prompts contain embedded code alongside natural language. A good example of this is the following prompt from DevGPT dataset sourced from GitHub Issues: 
@@ -134,8 +134,10 @@ To better understand the structure and variability of the dataset, we examine th
 
 \begin{table}[H]
 \centering
-\begin{tabular}{l||c|c|c}
-Source           & Mean & Median & Standard deviation \\ \hline
+\begin{tabular}{|l||c|c|c|}
+\hline
+Source           & Mean & Median & Standard deviation \\ 
+\hline
 GH Commits       & 3.2   & 1     & 5.65               \\
 \hline
 GH Issues        & 4.57  & 2     & 8.9                \\
@@ -148,7 +150,8 @@ GH code files    & 6.72  & 2     & 16.74              \\
 \hline
 GH repositories  & 21.38 & 10.5  & 31.58              \\
 \hline
-HackerNews       & 4     & 1     & 9.12             
+HackerNews       & 4     & 1     & 9.12               \\
+\hline 
 \end{tabular}   
 \caption{Median, mean and standard deviation of the conversation lengths from different sources.}
 \label{table:conv-lengths} 
@@ -164,7 +167,7 @@ Figure~\ref{fig:conv-per-prompt} contains histograms that show how many conversa
 \end{figure}
 
 \subsubsection{Long conversations contents}
-To understand the reasons behind unusually long conversations, we manually reviewed conversations that exceeded a predefined length threshold. The most common patterns are summarised below:
+To understand the reasons behind unusually long conversations, we manually reviewed 295 conversations that exceeded a predefined length threshold. The most common patterns are summarised below:
 
 \begin{itemize}
     \item \textbf{Pasted content:} Users split large texts (e.g., code files, articles, books) into multiple prompts due to the prompt's character limits.
@@ -187,7 +190,7 @@ The average number of symbols per prompt varied across sources, as shown in Figu
 To identify outliers, we defined dataset-specific cut-off thresholds set at two-thirds of the maximum observed average. Conversations containing prompts exceeding these thresholds were saved for further analysis.
 
 \subsubsection{Long prompt contents}
-Conversations containing unusually long prompts were saved and manually reviewed to understand their content. We identified several common reasons for the prompt length:
+Conversations containing unusually long prompts were saved and manually reviewed to understand their content. In total, 1984 conversations contained long prompts. We identified several common reasons for the prompt length:
 \begin{itemize}
     \item \textbf{Pasted external content:} Users copied large texts from sources such as scientific articles, GitHub issues, or documentation, often asking for summaries, explanations, or audience-specific rewrites.
     \item \textbf{Code-related debugging:} Prompts included error messages, undocumented code, or comments not flagged as code, with users seeking help with debugging or improvement.
@@ -203,3 +206,8 @@ Conversations containing unusually long prompts were saved and manually reviewed
         \item Desired output examples or target functionality.
     \end{itemize}
 \end{itemize}
+
+\section{Data limitations}
+Dataset used for this study offers a useful overview of how developers utilize \acrshort{gpt} to address everyday challenges. However, the data sources are incomplete. Conversations were collected from GitHub (commits, code files, discussions, pull requests and issues) and HackerNews, covering conversations that happened before March 2025. As a result, the dataset leaves out other platforms that may contain additional insights into developers' use of \acrshort{gpt}. Moreover, the data spans nearly two years, and some older conversation links that were used for scraping the data are now inactive, making it impossible to verify the original content.
+
+The language detection and data cleaning tools used were also imperfect. They occasionally failed to identify prompts or prompt lines containing foreign languages or embedded code. Many prompts contain pasted content (articles, documentation, code comments, or error messages), which, although written in natural English language, lacked relevance to the research questions. These elements introduced noise that the current toolset could not fully filter out.

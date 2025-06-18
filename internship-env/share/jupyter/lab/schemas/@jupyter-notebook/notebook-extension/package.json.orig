@@ -1,6 +1,6 @@
 {
   "name": "@jupyter-notebook/notebook-extension",
-  "version": "7.1.1",
+  "version": "7.4.3",
   "description": "Jupyter Notebook - Notebook Extension",
   "homepage": "https://github.com/jupyter/notebook",
   "bugs": {
@@ -38,22 +38,22 @@
     "watch": "tsc -b --watch"
   },
   "dependencies": {
-    "@jupyter-notebook/application": "^7.1.1",
-    "@jupyterlab/application": "~4.1.2",
-    "@jupyterlab/apputils": "~4.2.2",
-    "@jupyterlab/cells": "~4.1.2",
-    "@jupyterlab/docmanager": "~4.1.2",
-    "@jupyterlab/notebook": "~4.1.2",
-    "@jupyterlab/settingregistry": "~4.1.2",
-    "@jupyterlab/translation": "~4.1.2",
-    "@lumino/polling": "^2.1.2",
-    "@lumino/widgets": "^2.3.1",
+    "@jupyter-notebook/application": "^7.4.3",
+    "@jupyterlab/application": "~4.4.3",
+    "@jupyterlab/apputils": "~4.5.3",
+    "@jupyterlab/cells": "~4.4.3",
+    "@jupyterlab/docmanager": "~4.4.3",
+    "@jupyterlab/notebook": "~4.4.3",
+    "@jupyterlab/settingregistry": "~4.4.3",
+    "@jupyterlab/translation": "~4.4.3",
+    "@lumino/polling": "^2.1.4",
+    "@lumino/widgets": "^2.7.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "rimraf": "^3.0.2",
-    "typescript": "~5.0.2"
+    "typescript": "~5.5.4"
   },
   "publishConfig": {
     "access": "public"

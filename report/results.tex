@@ -1,7 +1,7 @@
 \chapter{Results}\label{results}
 In this chapter we provide insights into the knowledge we managed to extract during the analysis of developers prompts in developer-\acrshort{gpt} interaction. This chapter focuses on the results extracted from N-grams, topic modelling and sequence mining of the prompts. 
 
-\section{N-grams}
+\section{N-grams}\label{sec:ngrams-result}
 N-grams are extracted in order to provide an overview of the most common lexical patterns found within the data. Data gathered from each source was analysed separately and the most common 1- to 4-grams were extracted. Table~\ref{table:common-ngrams} shows interesting tri- and quadri-grams extracted from various data sources. 
 
 \begin{longtable}{|l|c|m{8cm}|}
@@ -48,6 +48,7 @@ Hacker News conversations differ by a less technical, more playful approach. N-g
 
 In conclusion, each platform reflects its users' intent --- ranging from practical coding to ethical reflection to creative exploration.
 
-\section{Topic modelling}
+\section{Sequential pattern mining}\label{sec:spm-results}
+\Acrfull{spm} is used to extend sequantial pattern analysis of the data present in the datasets. For this research we consider sequences that are longer than 4 tokens (1-, 2-, 3- and 4-grams were analyzed in Section~\ref{sec:ngrams-result}) and appear in 2 or more per cent of the non-empty prompts. 
 
-\section{Sequence mining}
+\section{Topic modelling}

@@ -1,5 +1,5 @@
 \chapter{Methodology}\label{methodology}
-The purpose of investigating how developers use \acrshort{gpt} in their projects is to gain a deeper understanding of the role the chatbot plays in developer-chatbot collaboration. This understanding can help improve the chatbot's ability to assist developers more effectively. To extract this knowledge, we applied n-grams, pattern mining, and topic modelling techniques, which are described in this chapter.
+The purpose of investigating how developers use \acrshort{gpt} in their projects is to gain a deeper understanding of the role the chatbot plays in developer-chatbot collaboration. This understanding can help improve the chatbot's ability to assist developers more effectively. To extract this knowledge, we applied n-grams, \acrfull{spm}, and topic modelling techniques, which are described in this chapter.
 
 \section{Data preparation}\label{sec:data-prep}
 To enable further analysis, we pre-processed the cleaned data by lemmatizing and tokenizing each prompt.  
@@ -43,30 +43,52 @@ For example, if we have the sequences $\langle A, A, B, A, D \rangle$, $\langle 
 
 In this research, we use \textbf{Seq2Pat} package~\cite{seq2pat2022} in order to extend sequential pattern analysis. N-grams, discussed in Section~\ref{sec:ngrams-method}, extract sequential data of the set size. However, we expand this analysis using \acrshort{spm} in order to analyse frequent patterns seen in data that are longer than the longest n-grams we extract. 
 
-In order to extract frequent patterns, we initialise the \textit{Seq2Pat} object with tokenized prompts as sequence database, set maximum span to 10, batch size to 10000 and discount factor to 0.2. We extract patterns using \textit{get\_patterns()} function, where minimum frequency is set to the length of the daatabase divided by 50. Once the sequence patterns are extracted, they are sorted in descending order and saved for the future analysis. The minimum frequencies for each data source were the following:
+In order to extract frequent patterns, we initialise the \textit{Seq2Pat} object with tokenized prompts as sequence database, set maximum span to 10, batch size to 10000 and discount factor to 0.2. We extract patterns using \textit{get\_patterns()} function, where minimum frequency is set to the length of the database divided by 50. Once the sequence patterns are extracted, they are sorted in descending order and saved for the future analysis. The minimum frequencies for each data source were the following:
 
 \begin{itemize}
-    \item GitHub commits: 54;
-    \item GitHub issues: 90;
+    \item GitHub commits: 51;
+    \item GitHub issues: 78;
     \item GitHub discussions: 8;
-    \item GitHub pull requests: 45;
-    \item GitHub code files: 1069;
+    \item GitHub pull requests: 42;
+    \item GitHub code files: 981;
     \item GitHub repositories: 3;
-    \item Hacker News: 60.
+    \item Hacker News: 52.
 \end{itemize}
 
 \section{Topic modelling}
-Topic models are generative models that provide a probabilistic framework~\cite{topic-model}. These models are used for large electronic text collections to organise, understand, search and summarise their content. 
+Topic models are generative models that provide a probabilistic framework for the term frequency occurrences in documents in a given corpus~\cite{topic-model}. These models are used for large electronic text collections to organize, understand, search, and summarize  their content. 
 
-The topics are the relations that link words in a vocabulary and their occurrence in documents. Each document is viewed as a mixture of topics. Topic models discover different themes present in the text collections and annotate the documents according to the themes. The document coverage distribution of topics is then generated to provide an overview of topics found in this document collection. 
+The topics are the relations that link words in a vocabulary and their occurrence in documents. Each document is viewed as a mixture of topics. Topic models discover different themes present in the text collections and annotate the documents according to the themes. The document coverage distribution of topics is generated to provide an overview of topics found in this document collection. 
 
-In this study we use \acrfull{lda} topic modelling --- one of the most popular text modelling techniques. \Acrshort{lda} is a probabilistic generative model that allows the observations to be described by unobserved data that explains why some parts of the data are similar to each other~\cite{tong-topic-modelling}. In \acrshort{lda}, documents consist of multiple topics and each topic is a distribution over a fixed vocabulary. For example, if we have the  following vocabulary of \{\textit{pan, cook, football, basketball}\}, then the kitchen topic will assigne high probabilities to the words \textit{pan} and \textit{cook}, while \textit{football} and \textit{basketball} will have very low probabilities; however, the sport topic will have the opposite probabilities for all the words. 
+In this study we used \acrfull{lda} topic modeling --- one of the most popular text modeling techniques. \Acrshort{lda} is a probabilistic generative model that allows the observations to be described by unobserved data that explains why some parts of the data are similar to each other~\cite{tong-topic-modelling}. In \acrshort{lda}, documents consist of multiple topics and each topic is a distribution over a fixed vocabulary. For example, if we have the following vocabulary of \{\textit{pan, cook, football, basketball}\}, then the kitchen topic will assign high probabilities to the words \textit{pan} and \textit{cook}, while \textit{football} and \textit{basketball} will have very low probabilities; however, the sport topic will have the opposite probabilities for all the words. 
 
-In the implementation we use the data cleaned in the pre-processing step as described in Section~\ref{sec:data-prep}. We start with creating the vacabulary: this is done using \textit{CountVectorizer} class to convert a collection of text documents to a matrix of token counts~\cite{scikitlearnCountVectorizer}. The parameters of \textit{min\_df} and \textbf{max\_df} are set to 0 and 1 respectively; \textit{ngram\_range} is set to tuple of (1,4), making vocabulary to consist of n-grams of the length 1 to 4 words; and the stop words are the stop words from \textbf{nltk} package. For topic modelling we use \textit{LatentDirichletAllocation} class from \textbf{sklearn} package~\cite{scikitlearnLatentDirichletAllocation}\todo{Code: remove split, use fit\_transform}, where we set number of topics to 10, iteration count to 6 and random state to 42. We calculate perplexity and coherence score of the topic model and visualise them along with WordCloud visualisation of the topics. 
+To determine the optimal number of topics for each data source, we used both coherence and perplexity scores. The coherence score measures the semantic similarity --- with values ranging between 0 and 1 --- between the top words in each topic, reflecting the interpretability and quality of the topics. The perplexity score evaluates how well the model predicts unseen data, with lower values indicating better generalization. We trained topic models with 2 to 10 topics and computed both scores for each model. The number of topics that achieved the highest coherence score and lowest perplexity was considered to best represent the data and was selected for further research. Table~\ref{table:topics_nr} shows the number of topics selected for the data from each source.
 
-\section{Limitations}
-There exist limitations of the dataset and methods selected for this study that influence the results of the research. These limitation are addressed in this section. 
+\begin{table}[H]
+\centering
+\begin{tabular}{|l||c|c|c|}
+\hline
+Source           & Number of topics & Coherence & Perplexity \\ 
+\hline
+GH Commits       & 4    & 0.4157  & 16386     \\
+\hline
+GH Issues        & 2    & 0.4341  & 183417    \\
+\hline
+GH Discussions   & 9    & 0.1844  & 44488     \\
+\hline
+GH Pull requests & 10   & 0.401   & 86206     \\
+\hline
+GH code files    & 5    & 0.4367  & 2847      \\
+\hline
+GH repositories  & 2    & 0.4321  & 6255      \\
+\hline
+HackerNews       & 8    & 0.2758  & 104586     \\
+\hline 
+\end{tabular}   
+\caption{Selected number of topics for data from each data source with coherence and perplexity scores.}
+\label{table:topics_nr} 
+\end{table}
 
-Dataset used for this study provides a good overview of how developers use \acrshort{gpt} for solving their daily problems. However, the sources that were used to extract this knowledge are not completer. The conversation data was collected from GitHub (commits, code files, discussions, pull requests and issues) and HackerNews, and it covers the conversations that happened between the release date of \acrshort{gpt} and 12th of October 2023. Thus, the data is not complete and misses other sources that could contain more knowledge regarding the use of \acrshort{gpt} by developers. Additionally, since the data was last sourced over a year ago, the conversations that happened after the mentioned date and conversations with \acrshort{gpt} that uses newer version GPT-4\footnote{\url{https://openai.com/index/gpt-4/}} are not included in this dataset. Moreover, some conversation links that were used to scrape the data are not working anymore, thus, the validity of these conversations cannot be checked.
+For the data from most data sources, the highest found coherence score was slightly above 0.4. However, topic models for the data sourced from GitHub discussions and HackerNews had the highest perplexity of 0.18 and 0.28 respectively. Such a low coherence score indicates that the quality of topics is poor. Additionally, perplexity of the topic models for the data sourced from GitHub issues, pull requests and HackerNews shows quite high numbers, meaning that the topics models might not describe the unseen data well enough. Thus, topic models for convesations sourced from GitHub issues, discussions and HackerNews should be considered with caution.
 
-Additionally, the language detection tool and the data cleaning method used are not fully accurate and miss prompts or prompt lines that contain foreign language and code. It was discovered, that the prompts often contain pasted text (articles, documentation, code comments) and error messages, which are hard to detect using the selected tool set, since they contain sentences in natural English language, but do not contain the information needed for answering the research question. Thus, the code snippets, foreign language prompts and copied texts add noise to the data that the tools are not able to detect.
+In the implementation we use the data cleaned in the pre-processing step as described in Section~\ref{sec:data-prep}. We start with creating the vocabulary: this is done using the \textit{CountVectorizer} class to convert a collection of text documents to a matrix of token counts~\cite{scikitlearnCountVectorizer}. The parameters of \textit{min\_df} and \textit{max\_df} are set to 0 and 1 respectively; \textit{ngram\_range} is set to tuple of (1,4), making vocabulary to consist of n-grams of the length 1 to 4 words; and the stop words are the stop words from \textbf{nltk} package. For topic modeling we use the \textit{LatentDirichletAllocation} class from \textbf{sklearn} package~\cite{scikitlearnLatentDirichletAllocation}, where we set the number of topics to the number with the highest coherence and low perplexity, iteration count to 10 and random state to 42. We calculate perplexity and coherence score of the topic model and visualize them along with WordCloud visualization of the topics. 

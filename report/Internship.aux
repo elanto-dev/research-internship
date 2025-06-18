@@ -88,6 +88,7 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Average symbol count per prompt number for all conversation sources after code lines were removed.}}{14}{figure.caption.9}\protected@file@percent }
 \newlabel{fig:symbols-per-prompt}{{3.2}{14}{Average symbol count per prompt number for all conversation sources after code lines were removed}{figure.caption.9}{}}
 \@writefile{toc}{\contentsline {subsubsection}{Long prompt contents}{14}{section*.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Data limitations}{15}{section.3.3}\protected@file@percent }
 \citation{pywsd14}
 \citation{nltk}
 \@writefile{toc}{\contentsline {chapter}{\numberline {4}Methodology}{16}{chapter.4}\protected@file@percent }
@@ -109,13 +110,10 @@
 \@writefile{toc}{\contentsline {section}{\numberline {4.3}Sequential pattern mining}{18}{section.4.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {4.4}Topic modelling}{18}{section.4.4}\protected@file@percent }
 \citation{tong-topic-modelling}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Selected number of topics for data from each data source with coherence and perplexity scores.}}{19}{table.caption.11}\protected@file@percent }
+\newlabel{table:topics_nr}{{4.1}{19}{Selected number of topics for data from each data source with coherence and perplexity scores}{table.caption.11}{}}
 \citation{scikitlearnCountVectorizer}
 \citation{scikitlearnLatentDirichletAllocation}
-\@writefile{tdo}{\contentsline {todo}{Code: remove split, use fit\_transform}{19}{section*.11}\protected@file@percent }
-\pgfsyspdfmark {pgfid1}{26965015}{28017468}
-\pgfsyspdfmark {pgfid4}{33847557}{28030924}
-\pgfsyspdfmark {pgfid5}{35695852}{27785738}
-\@writefile{toc}{\contentsline {section}{\numberline {4.5}Limitations}{19}{section.4.5}\protected@file@percent }
 \gdef \LT@i {\LT@entry 
     {1}{113.40324pt}\LT@entry 
     {1}{18.48335pt}\LT@entry 
@@ -125,10 +123,12 @@
 \@writefile{lot}{\addvspace {10\p@ }}
 \newlabel{results}{{5}{21}{Results}{chapter.5}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {5.1}N-grams}{21}{section.5.1}\protected@file@percent }
+\newlabel{sec:ngrams-result}{{5.1}{21}{N-grams}{section.5.1}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Interesting 3- and 4-grams extracted from the data.}}{22}{table.5.1}\protected@file@percent }
 \newlabel{table:common-ngrams}{{5.1}{22}{Interesting 3- and 4-grams extracted from the data}{table.5.1}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Topic modelling}{23}{section.5.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}Sequence mining}{23}{section.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Sequential pattern mining}{23}{section.5.2}\protected@file@percent }
+\newlabel{sec:spm-results}{{5.2}{23}{Sequential pattern mining}{section.5.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Topic modelling}{23}{section.5.3}\protected@file@percent }
 \bibstyle{ieeetr}
 \bibdata{bibliography}
 \@writefile{toc}{\contentsline {chapter}{\numberline {6}Discussion and conclusion}{24}{chapter.6}\protected@file@percent }
@@ -202,5 +202,21 @@
 \newlabel{fig:repositories-ngrams}{{A.6}{35}{N-grams from conversations sourced from GitHub repositories}{figure.caption.21}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {A.7}{\ignorespaces N-grams from conversations sourced from Hacker News.}}{35}{figure.caption.22}\protected@file@percent }
 \newlabel{fig:hn-ngrams}{{A.7}{35}{N-grams from conversations sourced from Hacker News}{figure.caption.22}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.2}Topic models' WordClouds}{36}{section.A.2}\protected@file@percent }
+\newlabel{appendix:topic-models}{{A.2}{36}{Topic models' WordClouds}{section.A.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.8}{\ignorespaces Topic models for conversations sourced from GitHub commits.}}{36}{figure.caption.23}\protected@file@percent }
+\newlabel{fig:commits-topic-modelling}{{A.8}{36}{Topic models for conversations sourced from GitHub commits}{figure.caption.23}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.9}{\ignorespaces Topic models for conversations sourced from GitHub issues.}}{36}{figure.caption.24}\protected@file@percent }
+\newlabel{fig:issues-topic-modelling}{{A.9}{36}{Topic models for conversations sourced from GitHub issues}{figure.caption.24}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.10}{\ignorespaces Topic models for conversations sourced from GitHub discussions.}}{37}{figure.caption.25}\protected@file@percent }
+\newlabel{fig:discussions-topic-modelling}{{A.10}{37}{Topic models for conversations sourced from GitHub discussions}{figure.caption.25}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.11}{\ignorespaces Topic models for conversations sourced from GitHub pull requests.}}{37}{figure.caption.26}\protected@file@percent }
+\newlabel{fig:pr-topic-modelling}{{A.11}{37}{Topic models for conversations sourced from GitHub pull requests}{figure.caption.26}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.12}{\ignorespaces Topic models for conversations sourced from GitHub code files.}}{38}{figure.caption.27}\protected@file@percent }
+\newlabel{fig:code-topic-modelling}{{A.12}{38}{Topic models for conversations sourced from GitHub code files}{figure.caption.27}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.13}{\ignorespaces Topic models for conversations sourced from GitHub repositories.}}{38}{figure.caption.28}\protected@file@percent }
+\newlabel{fig:repositories-topic-modelling}{{A.13}{38}{Topic models for conversations sourced from GitHub repositories}{figure.caption.28}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.14}{\ignorespaces Topic models for conversations sourced from Hacker News.}}{39}{figure.caption.29}\protected@file@percent }
+\newlabel{fig:hn-topic-modelling}{{A.14}{39}{Topic models for conversations sourced from Hacker News}{figure.caption.29}{}}
 \gdef\svg@ink@ver@settings{{\m@ne }{inkscape}{1}}
-\gdef \@abspage@last{37}
+\gdef \@abspage@last{41}
