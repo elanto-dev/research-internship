@@ -249,6 +249,16 @@ Z.~Tong and H.~Zhang, ``A text mining research based on lda topic modelling,''
   in {\em International conference on computer science, engineering and
   information technology}, pp.~201--210, 2016.
 
+\bibitem{coherence}
+S.~Syed and M.~Spruit, ``Full-text or abstract? examining topic coherence
+  scores using latent dirichlet allocation,'' in {\em 2017 IEEE International
+  Conference on Data Science and Advanced Analytics (DSAA)}, pp.~165--174,
+  2017.
+
+\bibitem{perplexity}
+A.~Neishabouri, M.~C. Desmarais, and P.~Montreal, ``Reliability of perplexity
+  to find number of latent topics.,'' in {\em FLAIRS}, pp.~246--251, 2020.
+
 \bibitem{scikitlearnCountVectorizer}
 ``{C}ount{V}ectorizer --- scikit-learn.org.''
   \url{https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html}.
