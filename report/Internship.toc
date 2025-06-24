@@ -22,8 +22,10 @@
 \contentsline {chapter}{\numberline {5}Results}{21}{chapter.5}%
 \contentsline {section}{\numberline {5.1}N-grams}{21}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Sequential pattern mining}{23}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Topic modelling}{23}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Discussion and conclusion}{24}{chapter.6}%
-\contentsline {chapter}{\numberline {A}Appendix}{33}{appendix.A}%
-\contentsline {section}{\numberline {A.1}N-grams WordClouds}{33}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Topic models' WordClouds}{37}{section.A.2}%
+\contentsline {section}{\numberline {5.3}Topic modelling}{25}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Discussion and conclusion}{28}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Future work}{29}{section.6.1}%
+\contentsline {chapter}{\numberline {A}Appendix}{38}{appendix.A}%
+\contentsline {section}{\numberline {A.1}N-grams WordClouds}{38}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Topic models}{42}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Topic models' WordClouds}{46}{section.A.3}%

@@ -1,7 +1,7 @@
 This is makeindex, version 2.16 [MiKTeX 25.3].
 Scanning style file ./Internship.ist...........................done (27 attributes redefined, 0 ignored).
-Scanning input file Internship.glo....done (55 entries accepted, 0 rejected).
-Sorting entries....done (338 comparisons).
-Generating output file Internship.gls....done (22 lines written, 0 warnings).
+Scanning input file Internship.glo....done (86 entries accepted, 0 rejected).
+Sorting entries....done (622 comparisons).
+Generating output file Internship.gls....done (26 lines written, 0 warnings).
 Output written in Internship.gls.
 Transcript written in Internship.glg.
