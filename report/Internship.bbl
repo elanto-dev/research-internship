@@ -93,67 +93,6 @@ M.~L. Siddiq, L.~Roney, J.~Zhang, and J.~C. D.~S. Santos, ``Quality assessment
   '24, (New York, NY, USA), p.~152–156, Association for Computing Machinery,
   2024.
 
-\bibitem{sagdic2024-devgpt-taxonomy}
-E.~Sagdic, A.~Bayram, and M.~R. Islam, ``On the taxonomy of developers'
-  discussion topics with chatgpt,'' in {\em Proceedings of the 21st
-  International Conference on Mining Software Repositories}, MSR '24, (New
-  York, NY, USA), p.~197–201, Association for Computing Machinery, 2024.
-
-\bibitem{grootendorst2022bertopicneuraltopicmodeling}
-M.~Grootendorst, ``Bertopic: Neural topic modeling with a class-based tf-idf
-  procedure,'' 2022.
-
-\bibitem{Mohamed2024-topics}
-S.~Mohamed, A.~Parvin, and E.~Parra, ``Chatting with ai: Deciphering developer
-  conversations with chatgpt,'' in {\em Proceedings of the 21st International
-  Conference on Mining Software Repositories}, MSR '24, (New York, NY, USA),
-  p.~187–191, Association for Computing Machinery, 2024.
-
-\bibitem{champa2024-gpt-use}
-A.~I. Champa, M.~F. Rabbi, C.~Nachuma, and M.~F. Zibran, ``Chatgpt in action:
-  Analyzing its use in software development,'' in {\em Proceedings of the 21st
-  International Conference on Mining Software Repositories}, MSR '24, (New
-  York, NY, USA), p.~182–186, Association for Computing Machinery, 2024.
-
-\bibitem{lewis2019bartdenoisingsequencetosequencepretraining}
-M.~Lewis, Y.~Liu, N.~Goyal, M.~Ghazvininejad, A.~Mohamed, O.~Levy, V.~Stoyanov,
-  and L.~Zettlemoyer, ``Bart: Denoising sequence-to-sequence pre-training for
-  natural language generation, translation, and comprehension,'' 2019.
-
-\bibitem{aguiar-multilang-chatgpt}
-L.~Aguiar, M.~Paixao, R.~Carmo, E.~Soares, A.~Leal, M.~Freitas, and E.~Gama,
-  ``Multi-language software development in the llm era: Insights from
-  practitioners’ conversations with chatgpt,'' in {\em Proceedings of the
-  18th ACM/IEEE International Symposium on Empirical Software Engineering and
-  Measurement}, ESEM '24, (New York, NY, USA), p.~489–495, Association for
-  Computing Machinery, 2024.
-
-\bibitem{chouchen2024-pr-how}
-M.~Chouchen, N.~Bessghaier, M.~Begoug, A.~Ouni, E.~Alomar, and M.~W. Mkaouer,
-  ``How do software developers use chatgpt? an exploratory study on github pull
-  requests,'' in {\em Proceedings of the 21st International Conference on
-  Mining Software Repositories}, MSR '24, (New York, NY, USA), p.~212–216,
-  Association for Computing Machinery, 2024.
-
-\bibitem{watanabe-code-review-chatgpt}
-M.~Watanabe, Y.~Kashiwa, B.~Lin, T.~Hirao, K.~Yamaguchi, and H.~Iida, ``On the
-  use of chatgpt for code review: Do developers like reviews by chatgpt?,''
-  EASE '24, (New York, NY, USA), p.~375–380, Association for Computing
-  Machinery, 2024.
-
-\bibitem{Hao2024-pr-exporatory}
-H.~Hao and Y.~Tian, ``Engaging with ai: An exploratory study on developers'
-  sharing and reactions to chatgpt in github pull requests,'' in {\em
-  Proceedings of the 39th IEEE/ACM International Conference on Automated
-  Software Engineering Workshops}, ASEW '24, (New York, NY, USA), p.~156–160,
-  Association for Computing Machinery, 2024.
-
-\bibitem{Hao2024-pr-empirical}
-H.~Hao, K.~A. Hasan, H.~Qin, M.~Macedo, Y.~Tian, S.~H.~H. Ding, and A.~E.
-  Hassan, ``An empirical study on developers' shared conversations with chatgpt
-  in github pull requests and issues,'' {\em Empirical Software Engineering},
-  vol.~29, p.~150, Sep 2024.
-
 \bibitem{Grewal2024-codegen}
 B.~Grewal, W.~Lu, S.~Nadi, and C.-P. Bezemer, ``Analyzing developer use of
   chatgpt generated code in open source github projects,'' in {\em Proceedings
@@ -195,6 +134,67 @@ L.~Wu, Y.~Zhao, X.~Hou, T.~Liu, and H.~Wang, ``Chatgpt chats decoded:
   lifecycle,'' in {\em Proceedings of the 21st International Conference on
   Mining Software Repositories}, MSR '24, (New York, NY, USA), p.~142–146,
   Association for Computing Machinery, 2024.
+
+\bibitem{aguiar-multilang-chatgpt}
+L.~Aguiar, M.~Paixao, R.~Carmo, E.~Soares, A.~Leal, M.~Freitas, and E.~Gama,
+  ``Multi-language software development in the llm era: Insights from
+  practitioners’ conversations with chatgpt,'' in {\em Proceedings of the
+  18th ACM/IEEE International Symposium on Empirical Software Engineering and
+  Measurement}, ESEM '24, (New York, NY, USA), p.~489–495, Association for
+  Computing Machinery, 2024.
+
+\bibitem{chouchen2024-pr-how}
+M.~Chouchen, N.~Bessghaier, M.~Begoug, A.~Ouni, E.~Alomar, and M.~W. Mkaouer,
+  ``How do software developers use chatgpt? an exploratory study on github pull
+  requests,'' in {\em Proceedings of the 21st International Conference on
+  Mining Software Repositories}, MSR '24, (New York, NY, USA), p.~212–216,
+  Association for Computing Machinery, 2024.
+
+\bibitem{watanabe-code-review-chatgpt}
+M.~Watanabe, Y.~Kashiwa, B.~Lin, T.~Hirao, K.~Yamaguchi, and H.~Iida, ``On the
+  use of chatgpt for code review: Do developers like reviews by chatgpt?,''
+  EASE '24, (New York, NY, USA), p.~375–380, Association for Computing
+  Machinery, 2024.
+
+\bibitem{Hao2024-pr-exporatory}
+H.~Hao and Y.~Tian, ``Engaging with ai: An exploratory study on developers'
+  sharing and reactions to chatgpt in github pull requests,'' in {\em
+  Proceedings of the 39th IEEE/ACM International Conference on Automated
+  Software Engineering Workshops}, ASEW '24, (New York, NY, USA), p.~156–160,
+  Association for Computing Machinery, 2024.
+
+\bibitem{Hao2024-pr-empirical}
+H.~Hao, K.~A. Hasan, H.~Qin, M.~Macedo, Y.~Tian, S.~H.~H. Ding, and A.~E.
+  Hassan, ``An empirical study on developers' shared conversations with chatgpt
+  in github pull requests and issues,'' {\em Empirical Software Engineering},
+  vol.~29, p.~150, Sep 2024.
+
+\bibitem{sagdic2024-devgpt-taxonomy}
+E.~Sagdic, A.~Bayram, and M.~R. Islam, ``On the taxonomy of developers'
+  discussion topics with chatgpt,'' in {\em Proceedings of the 21st
+  International Conference on Mining Software Repositories}, MSR '24, (New
+  York, NY, USA), p.~197–201, Association for Computing Machinery, 2024.
+
+\bibitem{grootendorst2022bertopicneuraltopicmodeling}
+M.~Grootendorst, ``Bertopic: Neural topic modeling with a class-based tf-idf
+  procedure,'' 2022.
+
+\bibitem{Mohamed2024-topics}
+S.~Mohamed, A.~Parvin, and E.~Parra, ``Chatting with ai: Deciphering developer
+  conversations with chatgpt,'' in {\em Proceedings of the 21st International
+  Conference on Mining Software Repositories}, MSR '24, (New York, NY, USA),
+  p.~187–191, Association for Computing Machinery, 2024.
+
+\bibitem{champa2024-gpt-use}
+A.~I. Champa, M.~F. Rabbi, C.~Nachuma, and M.~F. Zibran, ``Chatgpt in action:
+  Analyzing its use in software development,'' in {\em Proceedings of the 21st
+  International Conference on Mining Software Repositories}, MSR '24, (New
+  York, NY, USA), p.~182–186, Association for Computing Machinery, 2024.
+
+\bibitem{lewis2019bartdenoisingsequencetosequencepretraining}
+M.~Lewis, Y.~Liu, N.~Goyal, M.~Ghazvininejad, A.~Mohamed, O.~Levy, V.~Stoyanov,
+  and L.~Zettlemoyer, ``Bart: Denoising sequence-to-sequence pre-training for
+  natural language generation, translation, and comprehension,'' 2019.
 
 \bibitem{pywsd14}
 L.~Tan, ``Pywsd: Python implementations of word sense disambiguation (wsd)
