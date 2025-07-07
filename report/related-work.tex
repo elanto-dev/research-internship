@@ -1,10 +1,19 @@
 \chapter{Background}
 \section{\acrshort{gpt} and interaction with it}
-\Acrfull{gpt} is a large-scale, pre-trained language model developed by OpenAI and designed to engage in natural language conversations, utilizing \acrfull{nlp} techniques that enable the generation of human-like text with context and coherence. Its performance in generating creative and novel text and ability to adapt to the context opened the possibilities for applications in various fields, such as creative writing, marketing, advertising, technical problem-solving, etc.~\cite{fi15060192}
+\Acrfull{gpt} is a large-scale, pre-trained language model developed by OpenAI and designed to engage in natural language conversations, utilizing \acrfull{nlp} techniques that enable the generation of human-like text with context and coherence. Its performance in generating creative and novel text and ability to adapt to the context opened the possibilities for applications in various fields, such as creative writing, marketing, advertising, technical problem-solving, etc~\cite{fi15060192}.
 
 \Acrshort{gpt} model is a transformer-based neural network~\cite{vaswani2017attention} crafted to accomplish natural language processing tasks. Initially, the prototype was launched on the 30th of November 2022, which became available to the public on the 30th of January 2023. The model is trained on a vast corpus of textual data that was gathered from various sources, such as articles, books, reviews, online conversations and other human-generated data. This allowed the model to capture natural language patterns, nuances, and complexities, allowing \acrshort{gpt} to perform well in non-trivial dialogues on various topics. 
 
 This research focuses on the interactions with \acrshort{gpt}. Interaction with \acrshort{gpt} consists of \textit{conversation}, which is a collection of pairs of user \textit{prompt} and \acrshort{gpt}'s reply. The conversation starts with the user creating the initial \textit{prompt} which usually consists of the problem description, question, background information, step-by-step instructions for \acrshort{gpt} or any other information relevant to the user's needs. \Acrshort{gpt} uses the information provided in the prompt to generate the \textit{response}. After the user receives the response, they can either stop the conversation or continue it by providing the new prompt for \acrshort{gpt} to process. Such \acrshort{gpt} conversations are used in this research to answer the posed research questions with user prompt analysis.
+
+Figure~\ref{fig:gpt-conv} shows the example of a developer-\acrshort{gpt} conversation. The dark-blue square outlines the prompt of the conversation. The dark-green outline shows the full response of \acrshort{gpt}, which contains a code example outlined with orange, an explanation in the yellow outline, and a comparison to alternatives in the light-blue outline. The conversation can continue with the next prompt typed in the text input shown by the red outline.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{imgs/gpt_conv.png}
+    \caption{Example of a ChatGPT conversation.}
+    \label{fig:gpt-conv}
+\end{figure}
 
 \section{Related works}\label{related-work}
 DevGPT~\cite{devgpt} --- the dataset used for this research --- is a well-researched dataset that provides various insights into the developer-\acrshort{gpt} interactions and the usability of \acrshort{gpt} in the field related to software engineering. 

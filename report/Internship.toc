@@ -2,33 +2,34 @@
 \contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Background}{5}{chapter.2}%
 \contentsline {section}{\numberline {2.1}\acrshort {gpt} and interaction with it}{5}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Related works}{6}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Data}{8}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Data cleaning}{9}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Code detection and its accuracy}{9}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Language detection}{12}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Data exploration}{12}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Number of prompts in conversations}{13}{subsection.3.2.1}%
-\contentsline {subsubsection}{Long conversations contents}{14}{section*.6}%
-\contentsline {subsection}{\numberline {3.2.2}Average symbol/word count per prompt}{14}{subsection.3.2.2}%
-\contentsline {subsubsection}{Long prompt contents}{15}{section*.8}%
-\contentsline {section}{\numberline {3.3}Data limitations}{16}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Methodology}{17}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Data preparation}{17}{section.4.1}%
-\contentsline {section}{\numberline {4.2}N-grams}{18}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Sequential pattern mining}{19}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Topic modelling}{19}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Results}{22}{chapter.5}%
-\contentsline {section}{\numberline {5.1}N-grams}{22}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Sequential pattern mining}{24}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Topic modelling}{26}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Discussion and conclusion}{29}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Future work}{30}{section.6.1}%
-\contentsline {chapter}{\numberline {7}Reflection on research process}{38}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Research results}{38}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Process}{38}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Problems encountered}{39}{section.7.3}%
-\contentsline {chapter}{\numberline {A}Appendix}{40}{appendix.A}%
-\contentsline {section}{\numberline {A.1}N-grams WordClouds}{40}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Topic models}{44}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Topic models' WordClouds}{48}{section.A.3}%
+\contentsline {section}{\numberline {2.2}Related works}{7}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Data}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Data cleaning}{10}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Code detection and its accuracy}{10}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Language detection}{13}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Data exploration}{13}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Number of prompts in conversations}{14}{subsection.3.2.1}%
+\contentsline {subsubsection}{Long conversations contents}{15}{section*.7}%
+\contentsline {subsection}{\numberline {3.2.2}Average symbol/word count per prompt}{15}{subsection.3.2.2}%
+\contentsline {subsubsection}{Long prompt contents}{16}{section*.9}%
+\contentsline {section}{\numberline {3.3}Data limitations}{17}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Methodology}{18}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Data preparation}{18}{section.4.1}%
+\contentsline {section}{\numberline {4.2}N-grams}{19}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Sequential pattern mining}{20}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Topic modelling}{20}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Results}{23}{chapter.5}%
+\contentsline {section}{\numberline {5.1}N-grams}{23}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Sequential pattern mining}{25}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Topic modelling}{27}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Discussion and conclusion}{30}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Future work}{31}{section.6.1}%
+\contentsline {chapter}{\numberline {7}Reflection on research process}{32}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Research results}{32}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Process}{32}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Problems encountered}{33}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Takeaways}{33}{section.7.4}%
+\contentsline {chapter}{\numberline {A}Appendix}{41}{appendix.A}%
+\contentsline {section}{\numberline {A.1}N-grams WordClouds}{41}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Topic models}{45}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Topic models' WordClouds}{49}{section.A.3}%

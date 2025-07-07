@@ -30,11 +30,14 @@
 \newlabel{introduction}{{1}{3}{Introduction}{chapter.1}{}}
 \citation{fi15060192}
 \citation{vaswani2017attention}
-\citation{devgpt}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}Background}{5}{chapter.2}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{toc}{\contentsline {section}{\numberline {2.1}\acrshort {gpt} and interaction with it}{5}{section.2.1}\protected@file@percent }
+\citation{devgpt}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Example of a ChatGPT conversation.}}{6}{figure.caption.2}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:gpt-conv}{{2.1}{6}{Example of a ChatGPT conversation}{figure.caption.2}{}}
 \citation{siddiq2023generate}
 \citation{gpt-code-security-quality}
 \citation{zhang2024-code-smell}
@@ -55,101 +58,108 @@
 \citation{watanabe-code-review-chatgpt}
 \citation{Hao2024-pr-exporatory}
 \citation{Hao2024-pr-empirical}
-\@writefile{toc}{\contentsline {section}{\numberline {2.2}Related works}{6}{section.2.2}\protected@file@percent }
-\newlabel{related-work}{{2.2}{6}{Related works}{section.2.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.2}Related works}{7}{section.2.2}\protected@file@percent }
+\newlabel{related-work}{{2.2}{7}{Related works}{section.2.2}{}}
 \citation{sagdic2024-devgpt-taxonomy}
 \citation{grootendorst2022bertopicneuraltopicmodeling}
 \citation{Mohamed2024-topics}
 \citation{champa2024-gpt-use}
 \citation{lewis2019bartdenoisingsequencetosequencepretraining}
 \citation{devgpt}
-\@writefile{toc}{\contentsline {chapter}{\numberline {3}Data}{8}{chapter.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Data}{9}{chapter.3}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{sec:data}{{3}{8}{Data}{chapter.3}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Number of conversations collected from different sources after all the duplicates (DR) and non-English conversations (NE) were removed from the data.}}{8}{table.caption.2}\protected@file@percent }
-\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{table:data_stat}{{3.1}{8}{Number of conversations collected from different sources after all the duplicates (DR) and non-English conversations (NE) were removed from the data}{table.caption.2}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}Data cleaning}{9}{section.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Code detection and its accuracy}{9}{subsection.3.1.1}\protected@file@percent }
-\newlabel{sec:prog-identification}{{3.1.1}{9}{Code detection and its accuracy}{subsection.3.1.1}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces Accuracy and F-score of the code detection script per data source category.}}{11}{table.caption.3}\protected@file@percent }
-\newlabel{table:script-accuracy}{{3.2}{11}{Accuracy and F-score of the code detection script per data source category}{table.caption.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Language detection}{12}{subsection.3.1.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}Data exploration}{12}{section.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Number of prompts in conversations}{13}{subsection.3.2.1}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {3.3}{\ignorespaces Median, mean and standard deviation of the conversation lengths from different sources.}}{13}{table.caption.4}\protected@file@percent }
-\newlabel{table:conv-lengths}{{3.3}{13}{Median, mean and standard deviation of the conversation lengths from different sources}{table.caption.4}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Lengths of conversations in histogram gathered from different sources.}}{14}{figure.caption.5}\protected@file@percent }
-\newlabel{fig:conv-per-prompt}{{3.1}{14}{Lengths of conversations in histogram gathered from different sources}{figure.caption.5}{}}
-\@writefile{toc}{\contentsline {subsubsection}{Long conversations contents}{14}{section*.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Average symbol/word count per prompt}{14}{subsection.3.2.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Average symbol count per prompt number for all conversation sources after code lines were removed.}}{15}{figure.caption.7}\protected@file@percent }
-\newlabel{fig:symbols-per-prompt}{{3.2}{15}{Average symbol count per prompt number for all conversation sources after code lines were removed}{figure.caption.7}{}}
-\@writefile{toc}{\contentsline {subsubsection}{Long prompt contents}{15}{section*.8}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}Data limitations}{16}{section.3.3}\protected@file@percent }
+\newlabel{sec:data}{{3}{9}{Data}{chapter.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Number of conversations collected from different sources after all the duplicates (DR) and non-English conversations (NE) were removed from the data.}}{9}{table.caption.3}\protected@file@percent }
+\newlabel{table:data_stat}{{3.1}{9}{Number of conversations collected from different sources after all the duplicates (DR) and non-English conversations (NE) were removed from the data}{table.caption.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Data cleaning}{10}{section.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Code detection and its accuracy}{10}{subsection.3.1.1}\protected@file@percent }
+\newlabel{sec:prog-identification}{{3.1.1}{10}{Code detection and its accuracy}{subsection.3.1.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces Accuracy and F-score of the code detection script per data source category.}}{12}{table.caption.4}\protected@file@percent }
+\newlabel{table:script-accuracy}{{3.2}{12}{Accuracy and F-score of the code detection script per data source category}{table.caption.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Language detection}{13}{subsection.3.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Data exploration}{13}{section.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Number of prompts in conversations}{14}{subsection.3.2.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3.3}{\ignorespaces Median, mean and standard deviation of the conversation lengths from different sources.}}{14}{table.caption.5}\protected@file@percent }
+\newlabel{table:conv-lengths}{{3.3}{14}{Median, mean and standard deviation of the conversation lengths from different sources}{table.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Lengths of conversations in histogram gathered from different sources.}}{15}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:conv-per-prompt}{{3.1}{15}{Lengths of conversations in histogram gathered from different sources}{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Long conversations contents}{15}{section*.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Average symbol/word count per prompt}{15}{subsection.3.2.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Average symbol count per prompt number for all conversation sources after code lines were removed.}}{16}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:symbols-per-prompt}{{3.2}{16}{Average symbol count per prompt number for all conversation sources after code lines were removed}{figure.caption.8}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Long prompt contents}{16}{section*.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Data limitations}{17}{section.3.3}\protected@file@percent }
 \citation{pywsd14}
 \citation{nltk}
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Methodology}{17}{chapter.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Methodology}{18}{chapter.4}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{methodology}{{4}{17}{Methodology}{chapter.4}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Data preparation}{17}{section.4.1}\protected@file@percent }
-\newlabel{sec:data-prep}{{4.1}{17}{Data preparation}{section.4.1}{}}
+\newlabel{methodology}{{4}{18}{Methodology}{chapter.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Data preparation}{18}{section.4.1}\protected@file@percent }
+\newlabel{sec:data-prep}{{4.1}{18}{Data preparation}{section.4.1}{}}
 \citation{n-grams}
 \citation{wordcloud}
 \citation{bou2018medical}
 \citation{agrawal1995mining}
 \citation{requena2020shopper}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}N-grams}{18}{section.4.2}\protected@file@percent }
-\newlabel{sec:ngrams-method}{{4.2}{18}{N-grams}{section.4.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}N-grams}{19}{section.4.2}\protected@file@percent }
+\newlabel{sec:ngrams-method}{{4.2}{19}{N-grams}{section.4.2}{}}
 \citation{seq2pat}
 \citation{seq2pat2022}
 \citation{topic-model}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}Sequential pattern mining}{19}{section.4.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}Topic modelling}{19}{section.4.4}\protected@file@percent }
-\newlabel{sec:topic-modelling-methodology}{{4.4}{19}{Topic modelling}{section.4.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Sequential pattern mining}{20}{section.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Topic modelling}{20}{section.4.4}\protected@file@percent }
+\newlabel{sec:topic-modelling-methodology}{{4.4}{20}{Topic modelling}{section.4.4}{}}
 \citation{tong-topic-modelling}
 \citation{coherence}
 \citation{perplexity}
-\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Selected number of topics for data from each data source with coherence and perplexity scores.}}{20}{table.caption.9}\protected@file@percent }
-\newlabel{table:topics_nr}{{4.1}{20}{Selected number of topics for data from each data source with coherence and perplexity scores}{table.caption.9}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Selected number of topics for data from each data source with coherence and perplexity scores.}}{21}{table.caption.10}\protected@file@percent }
+\newlabel{table:topics_nr}{{4.1}{21}{Selected number of topics for data from each data source with coherence and perplexity scores}{table.caption.10}{}}
 \citation{scikitlearnCountVectorizer}
 \citation{scikitlearnLatentDirichletAllocation}
 \gdef \LT@i {\LT@entry 
     {1}{113.40324pt}\LT@entry 
     {1}{18.48335pt}\LT@entry 
     {1}{240.02203pt}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Results}{22}{chapter.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Results}{23}{chapter.5}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{results}{{5}{22}{Results}{chapter.5}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}N-grams}{22}{section.5.1}\protected@file@percent }
-\newlabel{sec:ngrams-result}{{5.1}{22}{N-grams}{section.5.1}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Interesting 3- and 4-grams extracted from the data.}}{23}{table.5.1}\protected@file@percent }
-\newlabel{table:common-ngrams}{{5.1}{23}{Interesting 3- and 4-grams extracted from the data}{table.5.1}{}}
+\newlabel{results}{{5}{23}{Results}{chapter.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}N-grams}{23}{section.5.1}\protected@file@percent }
+\newlabel{sec:ngrams-result}{{5.1}{23}{N-grams}{section.5.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Interesting 3- and 4-grams extracted from the data.}}{24}{table.5.1}\protected@file@percent }
+\newlabel{table:common-ngrams}{{5.1}{24}{Interesting 3- and 4-grams extracted from the data}{table.5.1}{}}
 \gdef \LT@ii {\LT@entry 
     {1}{55.47911pt}\LT@entry 
     {1}{63.61494pt}\LT@entry 
     {1}{240.02203pt}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Sequential pattern mining}{24}{section.5.2}\protected@file@percent }
-\newlabel{sec:spm-results}{{5.2}{24}{Sequential pattern mining}{section.5.2}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces Interesting sequences found in the data sourced from GitHub commits and repositories.}}{25}{table.5.2}\protected@file@percent }
-\newlabel{table:sequences}{{5.2}{25}{Interesting sequences found in the data sourced from GitHub commits and repositories}{table.5.2}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}Topic modelling}{26}{section.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Sequential pattern mining}{25}{section.5.2}\protected@file@percent }
+\newlabel{sec:spm-results}{{5.2}{25}{Sequential pattern mining}{section.5.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces Interesting sequences found in the data sourced from GitHub commits and repositories.}}{26}{table.5.2}\protected@file@percent }
+\newlabel{table:sequences}{{5.2}{26}{Interesting sequences found in the data sourced from GitHub commits and repositories}{table.5.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Topic modelling}{27}{section.5.3}\protected@file@percent }
 \citation{sagdic2024-devgpt-taxonomy}
 \citation{Mohamed2024-topics}
 \citation{siddiq2023generate}
 \citation{gpt-code-security-quality}
 \citation{clark2024-quantitative-quality-analysis}
 \citation{fi15060192}
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Discussion and conclusion}{29}{chapter.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Discussion and conclusion}{30}{chapter.6}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{conclusions}{{6}{29}{Discussion and conclusion}{chapter.6}{}}
+\newlabel{conclusions}{{6}{30}{Discussion and conclusion}{chapter.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Future work}{31}{section.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Reflection on research process}{32}{chapter.7}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{reflection}{{7}{32}{Reflection on research process}{chapter.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.1}Research results}{32}{section.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7.2}Process}{32}{section.7.2}\protected@file@percent }
 \bibstyle{ieeetr}
 \bibdata{bibliography}
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}Future work}{30}{section.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7.3}Problems encountered}{33}{section.7.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7.4}Takeaways}{33}{section.7.4}\protected@file@percent }
 \bibcite{gpt-usage-and-lim}{1}
 \bibcite{Dale_2021}{2}
 \bibcite{Floridi2020-gpt3paper}{3}
@@ -198,33 +208,26 @@
 \bibcite{perplexity}{46}
 \bibcite{scikitlearnCountVectorizer}{47}
 \bibcite{scikitlearnLatentDirichletAllocation}{48}
-\@writefile{toc}{\contentsline {chapter}{\numberline {7}Reflection on research process}{38}{chapter.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {A}Appendix}{41}{appendix.A}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{reflection}{{7}{38}{Reflection on research process}{chapter.7}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.1}Research results}{38}{section.7.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {7.2}Process}{38}{section.7.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {7.3}Problems encountered}{39}{section.7.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {A}Appendix}{40}{appendix.A}\protected@file@percent }
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{appendix}{{A}{40}{Appendix}{appendix.A}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {A.1}N-grams WordClouds}{40}{section.A.1}\protected@file@percent }
-\newlabel{appendix:ngrams}{{A.1}{40}{N-grams WordClouds}{section.A.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces N-grams from conversations sourced from GitHub commits.}}{40}{figure.caption.13}\protected@file@percent }
-\newlabel{fig:commits-ngrams}{{A.1}{40}{N-grams from conversations sourced from GitHub commits}{figure.caption.13}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.2}{\ignorespaces N-grams from conversations sourced from GitHub issues.}}{41}{figure.caption.14}\protected@file@percent }
-\newlabel{fig:issues-ngrams}{{A.2}{41}{N-grams from conversations sourced from GitHub issues}{figure.caption.14}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.3}{\ignorespaces N-grams from conversations sourced from GitHub discussions.}}{41}{figure.caption.15}\protected@file@percent }
-\newlabel{fig:discussions-ngrams}{{A.3}{41}{N-grams from conversations sourced from GitHub discussions}{figure.caption.15}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.4}{\ignorespaces N-grams from conversations sourced from GitHub pull requests.}}{42}{figure.caption.16}\protected@file@percent }
-\newlabel{fig:pr-ngrams}{{A.4}{42}{N-grams from conversations sourced from GitHub pull requests}{figure.caption.16}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.5}{\ignorespaces N-grams from conversations sourced from GitHub code files.}}{42}{figure.caption.17}\protected@file@percent }
-\newlabel{fig:code-ngrams}{{A.5}{42}{N-grams from conversations sourced from GitHub code files}{figure.caption.17}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.6}{\ignorespaces N-grams from conversations sourced from GitHub repositories.}}{43}{figure.caption.18}\protected@file@percent }
-\newlabel{fig:repositories-ngrams}{{A.6}{43}{N-grams from conversations sourced from GitHub repositories}{figure.caption.18}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.7}{\ignorespaces N-grams from conversations sourced from Hacker News.}}{43}{figure.caption.19}\protected@file@percent }
-\newlabel{fig:hn-ngrams}{{A.7}{43}{N-grams from conversations sourced from Hacker News}{figure.caption.19}{}}
+\newlabel{appendix}{{A}{41}{Appendix}{appendix.A}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.1}N-grams WordClouds}{41}{section.A.1}\protected@file@percent }
+\newlabel{appendix:ngrams}{{A.1}{41}{N-grams WordClouds}{section.A.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces N-grams from conversations sourced from GitHub commits.}}{41}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:commits-ngrams}{{A.1}{41}{N-grams from conversations sourced from GitHub commits}{figure.caption.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.2}{\ignorespaces N-grams from conversations sourced from GitHub issues.}}{42}{figure.caption.15}\protected@file@percent }
+\newlabel{fig:issues-ngrams}{{A.2}{42}{N-grams from conversations sourced from GitHub issues}{figure.caption.15}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.3}{\ignorespaces N-grams from conversations sourced from GitHub discussions.}}{42}{figure.caption.16}\protected@file@percent }
+\newlabel{fig:discussions-ngrams}{{A.3}{42}{N-grams from conversations sourced from GitHub discussions}{figure.caption.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.4}{\ignorespaces N-grams from conversations sourced from GitHub pull requests.}}{43}{figure.caption.17}\protected@file@percent }
+\newlabel{fig:pr-ngrams}{{A.4}{43}{N-grams from conversations sourced from GitHub pull requests}{figure.caption.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.5}{\ignorespaces N-grams from conversations sourced from GitHub code files.}}{43}{figure.caption.18}\protected@file@percent }
+\newlabel{fig:code-ngrams}{{A.5}{43}{N-grams from conversations sourced from GitHub code files}{figure.caption.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.6}{\ignorespaces N-grams from conversations sourced from GitHub repositories.}}{44}{figure.caption.19}\protected@file@percent }
+\newlabel{fig:repositories-ngrams}{{A.6}{44}{N-grams from conversations sourced from GitHub repositories}{figure.caption.19}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.7}{\ignorespaces N-grams from conversations sourced from Hacker News.}}{44}{figure.caption.20}\protected@file@percent }
+\newlabel{fig:hn-ngrams}{{A.7}{44}{N-grams from conversations sourced from Hacker News}{figure.caption.20}{}}
 \gdef \LT@iii {\LT@entry 
     {1}{98.15825pt}\LT@entry 
     {1}{268.4748pt}}
@@ -234,19 +237,19 @@
 \gdef \LT@v {\LT@entry 
     {1}{126.61101pt}\LT@entry 
     {1}{240.02203pt}}
-\@writefile{toc}{\contentsline {section}{\numberline {A.2}Topic models}{44}{section.A.2}\protected@file@percent }
-\newlabel{appendix:topic-models}{{A.2}{44}{Topic models}{section.A.2}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {A.1}{\ignorespaces Topic models with top words for conversations sourced from GitHub commits.}}{44}{table.A.1}\protected@file@percent }
-\newlabel{table:commits-topics}{{A.1}{44}{Topic models with top words for conversations sourced from GitHub commits}{table.A.1}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {A.2}{\ignorespaces Topic models with top words for conversations sourced from GitHub issues.}}{44}{table.A.2}\protected@file@percent }
-\newlabel{table:issues-topics}{{A.2}{44}{Topic models with top words for conversations sourced from GitHub issues}{table.A.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.2}Topic models}{45}{section.A.2}\protected@file@percent }
+\newlabel{appendix:topic-models}{{A.2}{45}{Topic models}{section.A.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {A.1}{\ignorespaces Topic models with top words for conversations sourced from GitHub commits.}}{45}{table.A.1}\protected@file@percent }
+\newlabel{table:commits-topics}{{A.1}{45}{Topic models with top words for conversations sourced from GitHub commits}{table.A.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {A.2}{\ignorespaces Topic models with top words for conversations sourced from GitHub issues.}}{45}{table.A.2}\protected@file@percent }
+\newlabel{table:issues-topics}{{A.2}{45}{Topic models with top words for conversations sourced from GitHub issues}{table.A.2}{}}
 \gdef \LT@vi {\LT@entry 
     {1}{155.06377pt}\LT@entry 
     {1}{211.56927pt}}
-\@writefile{lot}{\contentsline {table}{\numberline {A.3}{\ignorespaces Topic models with top words for conversations sourced from GitHub discussions.}}{45}{table.A.3}\protected@file@percent }
-\newlabel{table:discussions-topics}{{A.3}{45}{Topic models with top words for conversations sourced from GitHub discussions}{table.A.3}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {A.4}{\ignorespaces Topic models with top words for conversations sourced from GitHub pull requests.}}{45}{table.A.4}\protected@file@percent }
-\newlabel{table:pr-topics}{{A.4}{45}{Topic models with top words for conversations sourced from GitHub pull requests}{table.A.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {A.3}{\ignorespaces Topic models with top words for conversations sourced from GitHub discussions.}}{46}{table.A.3}\protected@file@percent }
+\newlabel{table:discussions-topics}{{A.3}{46}{Topic models with top words for conversations sourced from GitHub discussions}{table.A.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {A.4}{\ignorespaces Topic models with top words for conversations sourced from GitHub pull requests.}}{46}{table.A.4}\protected@file@percent }
+\newlabel{table:pr-topics}{{A.4}{46}{Topic models with top words for conversations sourced from GitHub pull requests}{table.A.4}{}}
 \gdef \LT@vii {\LT@entry 
     {1}{126.61101pt}\LT@entry 
     {1}{240.02203pt}}
@@ -256,27 +259,27 @@
 \gdef \LT@ix {\LT@entry 
     {1}{126.61101pt}\LT@entry 
     {1}{240.02203pt}}
-\@writefile{lot}{\contentsline {table}{\numberline {A.5}{\ignorespaces Topic models with top words for conversations sourced from GitHub code files}}{46}{table.A.5}\protected@file@percent }
-\newlabel{table:code-files-topics}{{A.5}{46}{Topic models with top words for conversations sourced from GitHub code files}{table.A.5}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {A.6}{\ignorespaces Topic models with top words for conversations sourced from GitHub repositories.}}{46}{table.A.6}\protected@file@percent }
-\newlabel{table:repository-topics}{{A.6}{46}{Topic models with top words for conversations sourced from GitHub repositories}{table.A.6}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {A.7}{\ignorespaces Topic models with top words for conversations sourced from HackerNews.}}{47}{table.A.7}\protected@file@percent }
-\newlabel{table:hn-topics}{{A.7}{47}{Topic models with top words for conversations sourced from HackerNews}{table.A.7}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {A.3}Topic models' WordClouds}{48}{section.A.3}\protected@file@percent }
-\newlabel{appendix:topic-models-wordclouds}{{A.3}{48}{Topic models' WordClouds}{section.A.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.8}{\ignorespaces Topic models for conversations sourced from GitHub commits.}}{48}{figure.caption.20}\protected@file@percent }
-\newlabel{fig:commits-topic-modelling}{{A.8}{48}{Topic models for conversations sourced from GitHub commits}{figure.caption.20}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.9}{\ignorespaces Topic models for conversations sourced from GitHub issues.}}{48}{figure.caption.21}\protected@file@percent }
-\newlabel{fig:issues-topic-modelling}{{A.9}{48}{Topic models for conversations sourced from GitHub issues}{figure.caption.21}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.10}{\ignorespaces Topic models for conversations sourced from GitHub discussions.}}{49}{figure.caption.22}\protected@file@percent }
-\newlabel{fig:discussions-topic-modelling}{{A.10}{49}{Topic models for conversations sourced from GitHub discussions}{figure.caption.22}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.11}{\ignorespaces Topic models for conversations sourced from GitHub pull requests.}}{49}{figure.caption.23}\protected@file@percent }
-\newlabel{fig:pr-topic-modelling}{{A.11}{49}{Topic models for conversations sourced from GitHub pull requests}{figure.caption.23}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.12}{\ignorespaces Topic models for conversations sourced from GitHub code files.}}{50}{figure.caption.24}\protected@file@percent }
-\newlabel{fig:code-topic-modelling}{{A.12}{50}{Topic models for conversations sourced from GitHub code files}{figure.caption.24}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.13}{\ignorespaces Topic models for conversations sourced from GitHub repositories.}}{50}{figure.caption.25}\protected@file@percent }
-\newlabel{fig:repositories-topic-modelling}{{A.13}{50}{Topic models for conversations sourced from GitHub repositories}{figure.caption.25}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.14}{\ignorespaces Topic models for conversations sourced from Hacker News.}}{51}{figure.caption.26}\protected@file@percent }
-\newlabel{fig:hn-topic-modelling}{{A.14}{51}{Topic models for conversations sourced from Hacker News}{figure.caption.26}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {A.5}{\ignorespaces Topic models with top words for conversations sourced from GitHub code files}}{47}{table.A.5}\protected@file@percent }
+\newlabel{table:code-files-topics}{{A.5}{47}{Topic models with top words for conversations sourced from GitHub code files}{table.A.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {A.6}{\ignorespaces Topic models with top words for conversations sourced from GitHub repositories.}}{47}{table.A.6}\protected@file@percent }
+\newlabel{table:repository-topics}{{A.6}{47}{Topic models with top words for conversations sourced from GitHub repositories}{table.A.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {A.7}{\ignorespaces Topic models with top words for conversations sourced from HackerNews.}}{48}{table.A.7}\protected@file@percent }
+\newlabel{table:hn-topics}{{A.7}{48}{Topic models with top words for conversations sourced from HackerNews}{table.A.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.3}Topic models' WordClouds}{49}{section.A.3}\protected@file@percent }
+\newlabel{appendix:topic-models-wordclouds}{{A.3}{49}{Topic models' WordClouds}{section.A.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.8}{\ignorespaces Topic models for conversations sourced from GitHub commits.}}{49}{figure.caption.21}\protected@file@percent }
+\newlabel{fig:commits-topic-modelling}{{A.8}{49}{Topic models for conversations sourced from GitHub commits}{figure.caption.21}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.9}{\ignorespaces Topic models for conversations sourced from GitHub issues.}}{49}{figure.caption.22}\protected@file@percent }
+\newlabel{fig:issues-topic-modelling}{{A.9}{49}{Topic models for conversations sourced from GitHub issues}{figure.caption.22}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.10}{\ignorespaces Topic models for conversations sourced from GitHub discussions.}}{50}{figure.caption.23}\protected@file@percent }
+\newlabel{fig:discussions-topic-modelling}{{A.10}{50}{Topic models for conversations sourced from GitHub discussions}{figure.caption.23}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.11}{\ignorespaces Topic models for conversations sourced from GitHub pull requests.}}{50}{figure.caption.24}\protected@file@percent }
+\newlabel{fig:pr-topic-modelling}{{A.11}{50}{Topic models for conversations sourced from GitHub pull requests}{figure.caption.24}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.12}{\ignorespaces Topic models for conversations sourced from GitHub code files.}}{51}{figure.caption.25}\protected@file@percent }
+\newlabel{fig:code-topic-modelling}{{A.12}{51}{Topic models for conversations sourced from GitHub code files}{figure.caption.25}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.13}{\ignorespaces Topic models for conversations sourced from GitHub repositories.}}{51}{figure.caption.26}\protected@file@percent }
+\newlabel{fig:repositories-topic-modelling}{{A.13}{51}{Topic models for conversations sourced from GitHub repositories}{figure.caption.26}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.14}{\ignorespaces Topic models for conversations sourced from Hacker News.}}{52}{figure.caption.27}\protected@file@percent }
+\newlabel{fig:hn-topic-modelling}{{A.14}{52}{Topic models for conversations sourced from Hacker News}{figure.caption.27}{}}
 \gdef\svg@ink@ver@settings{{\m@ne }{inkscape}{1}}
-\gdef \@abspage@last{53}
+\gdef \@abspage@last{54}
